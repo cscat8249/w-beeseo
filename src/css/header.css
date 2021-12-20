@@ -1,0 +1,129 @@
+.header {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-width: 1200px;
+  height: 80px;
+  padding: 0px 20px;
+  z-index: 999;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: transparent;
+}
+
+.header div {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header div .logolink {
+  margin-top: 3px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.header div.menuwrap {
+  margin-left: auto;
+}
+
+.header div.menuwrap a {
+  margin-left: 40px;
+  font-size: 16px;
+  line-height: 26px;
+  position: relative;
+  color: #222;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.header div.menuwrap a:hover {
+  font-weight: 700;
+  color: #003458;
+}
+
+.header div.menuwrap a.agentlogin_btn {
+  margin-left: 8px;
+}
+
+.header div.menuwrap a.agentlogin_btn .agentlogin_txet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 40px;
+  padding: 0px 20px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #222222;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+}
+
+.header div.menuwrap a.agentlogin_btn .agentlogin_txet:hover {
+  color: #222222;
+  background-color: #fcfcfc;
+}
+
+.header div.menuwrap .userlogin_btn {
+  margin-left: 40px;
+  color: #444444;
+  font-size: 13px;
+  border: 0px;
+  background-color: transparent;
+}
+
+.header div.menuwrap .userlogin_btn .userlogin_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 40px;
+  padding: 0px 20px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #222222;
+  border: 1px solid #dfdfdf;
+  border-radius: 2px;
+}
+
+.header div.menuwrap .userlogin_btn .userlogin_text:hover {
+  color: #222222;
+  background-color: #fcfcfc;
+}
+
+.header div.menuwrap .userlogin_btn .userlogin_text span {
+  display: block;
+  margin: 0px 14px;
+  width: 1px;
+  height: 14px;
+  background-color: #dfdfdf;
+  position: relative;
+  top: 1px;
+}

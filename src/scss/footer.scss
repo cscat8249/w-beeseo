@@ -1,0 +1,91 @@
+@charset 'utf-8';
+
+footer {
+    border-top: 1px solid #ccc;
+    width: 100%;
+    .fixed {
+        width: 1200px;
+        height: 100%;
+        margin: 0px auto;
+        padding: 0px 10px;
+    }
+    .f_box_wrap {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 0px 37px;
+        .f_logo {
+            flex-grow: 0.5;
+            h2 {
+                font-size: 40px;
+                font-weight: 700;
+                color: #ccc;
+            }
+        }
+        .f_nav_wrap {
+            flex-grow: 3;
+            .f_copy {
+                height: 50px;
+                .f_info {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    height: 100%;
+                    li {
+                        display: flex;
+                        align-items: center;
+                        height: 12px;
+                        a {
+                            color: rgb(170, 170, 170);
+                            font-size: 14px;
+                            font-weight: 400;
+                            &.f_strong {
+                                font-weight: 700;
+                            }
+                        }
+                        +li {
+                            margin-left: 16px;
+                            padding-left: 16px;
+                            border-left: 1px solid rgb(160, 160, 160);
+                        }
+                    }
+                }
+            }
+            address {
+                padding: 10px 0px 10px;
+                ul {
+                    li {
+                        height: 18px;
+                        color: rgb(160, 160, 160);
+                        font-size: 12px;
+                        line-height: 18px;
+                        white-space: pre-wrap;
+                    }
+                }
+            }
+            .f_company {
+                margin-top: 5px;
+                color: rgb(160, 160, 160);
+                font-size: 12px;
+                line-height: 18px;
+            }
+        }
+        .f_service {
+            flex-grow: 1;
+            text-align: right;
+            color: rgb(160, 160, 160);
+            ul {
+                li {
+                    
+                    h2 {
+                        font-size: 17px;
+                    }
+                    a {
+                        color: #222;
+                        font-size: 25px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+    }
+}
