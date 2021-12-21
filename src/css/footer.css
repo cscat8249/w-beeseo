@@ -66,7 +66,7 @@ footer .f_box_wrap .f_nav_wrap .f_copy .f_info li {
 }
 
 footer .f_box_wrap .f_nav_wrap .f_copy .f_info li a {
-  color: #aaaaaa;
+  color: #ccc;
   font-size: 14px;
   font-weight: 400;
 }
@@ -78,7 +78,7 @@ footer .f_box_wrap .f_nav_wrap .f_copy .f_info li a.f_strong {
 footer .f_box_wrap .f_nav_wrap .f_copy .f_info li + li {
   margin-left: 16px;
   padding-left: 16px;
-  border-left: 1px solid #a0a0a0;
+  border-left: 1px solid #ccc;
 }
 
 footer .f_box_wrap .f_nav_wrap address {
@@ -87,7 +87,7 @@ footer .f_box_wrap .f_nav_wrap address {
 
 footer .f_box_wrap .f_nav_wrap address ul li {
   height: 18px;
-  color: #a0a0a0;
+  color: #ccc;
   font-size: 12px;
   line-height: 18px;
   white-space: pre-wrap;
@@ -95,7 +95,7 @@ footer .f_box_wrap .f_nav_wrap address ul li {
 
 footer .f_box_wrap .f_nav_wrap .f_company {
   margin-top: 5px;
-  color: #a0a0a0;
+  color: #ccc;
   font-size: 12px;
   line-height: 18px;
 }
@@ -105,7 +105,7 @@ footer .f_box_wrap .f_service {
       -ms-flex-positive: 1;
           flex-grow: 1;
   text-align: right;
-  color: #a0a0a0;
+  color: #ccc;
 }
 
 footer .f_box_wrap .f_service ul li h2 {
