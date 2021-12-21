@@ -1,4 +1,4 @@
-@import './src/reset.css';
-@import './src/base.css';
-@import './src/header.css';
-@import './src/footer.css';
+@import '/w-beeseo/src/reset.css';
+@import '/w-beeseo/src/base.css';
+@import '/w-beeseo/src/header.css';
+@import '/w-beeseo/src/footer.css';
