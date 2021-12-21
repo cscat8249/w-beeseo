@@ -1,4 +1,4 @@
-@import 'reset.css';
-@import 'base.css';
-@import 'header.css';
-@import 'footer.css';
+@import './src/reset.css';
+@import './src/base.css';
+@import './src/header.css';
+@import './src/footer.css';
