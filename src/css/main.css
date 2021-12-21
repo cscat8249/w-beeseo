@@ -117,22 +117,23 @@
 .main_banner_box .box {
   width: 100%;
   height: 180px;
+  line-height: 12;
   background-color: #EDEDE5;
 }
 
-.main_like_box {
+.main_like_box_wrap {
   width: 100%;
   margin: 100px 0px 160px;
 }
 
-.main_like_box .fixed {
+.main_like_box_wrap .fixed {
   width: 1200px;
   height: 100%;
   margin: 0px auto;
   padding: 0px 10px;
 }
 
-.main_like_box .main_likes {
+.main_like_box_wrap .main_likes {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -145,18 +146,18 @@
   margin-bottom: 45px;
 }
 
-.main_like_box .main_likes .title {
+.main_like_box_wrap .main_likes .title {
   font-size: 24px;
   line-height: 36px;
   color: #222222;
 }
 
-.main_like_box .main_likes .title > strong {
+.main_like_box_wrap .main_likes .title > strong {
   font-weight: 700;
   color: #222222;
 }
 
-.main_like_box .main_likes .link {
+.main_like_box_wrap .main_likes .link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -170,11 +171,277 @@
   cursor: pointer;
 }
 
-.main_like_box .main_likes .link > svg {
+.main_like_box_wrap .main_likes .link > svg {
   margin-left: 5px;
 }
 
-.main_like_box .main_likes .link:hover {
+.main_like_box_wrap .main_likes .link:hover {
   font-weight: 700;
   color: #003458;
+}
+
+.main_like_box_wrap .main_like_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_prev_button {
+  width: 50px;
+  height: 50px;
+  background: #EDEDE5;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  cursor: pointer;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_prev_button p {
+  margin: auto;
+  padding-left: 5px;
+  font-size: 0;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_prev_button i {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 8px;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_prev_button .left {
+  -webkit-transform: rotate(135deg);
+          transform: rotate(135deg);
+}
+
+.main_like_box_wrap .main_like_box .main_likes_prev_button:hover {
+  background: #003458;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_prev_button:hover i {
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 8px;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_next_button {
+  width: 50px;
+  height: 50px;
+  background: #EDEDE5;
+  border-radius: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  cursor: pointer;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_next_button p {
+  margin: auto;
+  padding-right: 5px;
+  font-size: 0;
+  cursor: pointer;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_next_button i {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 8px;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_next_button .right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.main_like_box_wrap .main_like_box .main_likes_next_button:hover {
+  background: #003458;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_next_button:hover i {
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 8px;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap {
+  -webkit-box-flex: 0.5;
+      -ms-flex-positive: 0.5;
+          flex-grow: 0.5;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .main_likes_items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .main_likes_items > li {
+  background-color: #EDEDE5;
+  width: 330px;
+  height: 400px;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .main_card_info_wrap {
+  position: relative;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .link {
+  display: block;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .main_card_img_wrap {
+  padding-top: 66.43%;
+  border-radius: 2px;
+  position: relative;
+  overflow: hidden;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .main_card_img_wrap > div {
+  position: absolute;
+  inset: 0px;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .img_card {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 2px;
+  background-color: #fafafa;
+  background-size: 60px 60px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  position: relative;
+  overflow: hidden;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .img_card > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  font-family: "object-fit: cover;";
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .img_card .black {
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-transition: background-color 200ms ease-in-out 0s;
+  transition: background-color 200ms ease-in-out 0s;
+  position: absolute;
+  inset: 0px;
+  z-index: 1;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .main_card_info {
+  margin-top: 20px;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .main_card_info .division {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4px;
+  color: #222222;
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .main_card_info .title {
+  font-family: 700;
+  margin-bottom: 2px;
+  color: #222222;
+  font-size: 20px;
+  line-height: 29px;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .main_card_info .sub_title {
+  font-family: 700;
+  margin-bottom: 2px;
+  color: #222222;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .main_card_info .info {
+  color: #222222;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .main_card_info .more {
+  color: #222222;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .main_like_box_nav {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .main_like_box_nav .page_nav_point {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  border-radius: 100%;
+  background: #ccc;
+  opacity: 0.2;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.main_like_box_wrap .main_like_box .main_likes_items_wrap .main_like_box_nav .page_nav_point.active {
+  background: #003458;
+  opacity: 1;
 }
