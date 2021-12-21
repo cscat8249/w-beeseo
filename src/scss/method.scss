@@ -1,0 +1,27 @@
+@charset 'utf-8';
+@import './value.scss';
+
+@mixin heder_flex {
+    flex: 0 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+@mixin heder_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    padding: 0px 20px;
+    font-size: $font_size_14;
+    line-height: 24px;
+    font-weight: $font_weight_700;
+    color: $black;
+    border: 1px solid $gray;
+    border-radius: 2px;
+}
+
+@mixin fixed {
+
+}
+

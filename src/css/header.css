@@ -13,7 +13,7 @@
   height: 80px;
   padding: 0px 20px;
   z-index: 999;
-  border-bottom: 1px solid #e7e7e7;
+  border-bottom: 1px solid #ccc;
   background-color: transparent;
 }
 
@@ -75,14 +75,14 @@
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
-  color: #222222;
-  border: 1px solid #dfdfdf;
+  color: #222;
+  border: 1px solid #ccc;
   border-radius: 2px;
 }
 
 .header div.menuwrap a.agentlogin_btn .agentlogin_txet:hover {
-  color: #222222;
-  background-color: #fcfcfc;
+  color: #fff;
+  background-color: #003458;
 }
 
 .header div.menuwrap .userlogin_btn {
@@ -108,14 +108,14 @@
   font-size: 14px;
   line-height: 24px;
   font-weight: 700;
-  color: #222222;
-  border: 1px solid #dfdfdf;
+  color: #222;
+  border: 1px solid #ccc;
   border-radius: 2px;
 }
 
 .header div.menuwrap .userlogin_btn .userlogin_text:hover {
-  color: #222222;
-  background-color: #fcfcfc;
+  color: #fff;
+  background-color: #003458;
 }
 
 .header div.menuwrap .userlogin_btn .userlogin_text span {
