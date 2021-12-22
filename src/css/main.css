@@ -596,6 +596,10 @@
   text-align: center;
 }
 
+.main_remodeling_box_wrap .remodeling_box_nav .remodeling_nav .item a {
+  cursor: pointer;
+}
+
 .main_remodeling_box_wrap .remodeling_box_nav .remodeling_nav .item a:hover .all {
   background-image: url("/w-beeseo/src/img/button/it_01_on.png");
 }

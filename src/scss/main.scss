@@ -394,6 +394,7 @@
                     text-align: center;
                 }
                 a {
+                    cursor: pointer;
                     &:hover{
                         .all {
                             background-image: url('/w-beeseo/src/img/button/it_01_on.png');
