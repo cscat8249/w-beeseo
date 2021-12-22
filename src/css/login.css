@@ -28,3 +28,12 @@
   -webkit-box-shadow: 0 0 20px black;
           box-shadow: 0 0 20px black;
 }
+
+.login_box_wrap .login_box_from h1 {
+  padding-bottom: 24px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  border-bottom: 1px solid whitesmoke;
+}
