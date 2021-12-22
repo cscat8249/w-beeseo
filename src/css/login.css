@@ -109,6 +109,7 @@
           flex-direction: column;
   margin-top: 0px;
   margin-bottom: 16px;
+  text-align: left;
 }
 
 .login_box_wrap .login_box_from .login_pwd_input_wrap .login_pwd_input_label {
