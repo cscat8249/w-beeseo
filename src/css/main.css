@@ -528,8 +528,58 @@
 
 .main_remodeling_box_wrap .remodeling_box_nav .remodeling_nav .item .all {
   width: 100%;
+  height: 100px;
   background-image: url("/w-beeseo/src/img/button/it_01.png");
   background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main_remodeling_box_wrap .remodeling_box_nav .remodeling_nav .item .cafe {
+  width: 100%;
+  height: 100px;
+  background-image: url("/w-beeseo/src/img/button/it_02.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main_remodeling_box_wrap .remodeling_box_nav .remodeling_nav .item .restaurant {
+  width: 100%;
+  height: 100px;
+  background-image: url("/w-beeseo/src/img/button/it_03.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main_remodeling_box_wrap .remodeling_box_nav .remodeling_nav .item .sharehouse {
+  width: 100%;
+  height: 100px;
+  background-image: url("/w-beeseo/src/img/button/it_04.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main_remodeling_box_wrap .remodeling_box_nav .remodeling_nav .item .house {
+  width: 100%;
+  height: 100px;
+  background-image: url("/w-beeseo/src/img/button/it_05.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main_remodeling_box_wrap .remodeling_box_nav .remodeling_nav .item .office {
+  width: 100%;
+  height: 100px;
+  background-image: url("/w-beeseo/src/img/button/it_06.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.main_remodeling_box_wrap .remodeling_box_nav .remodeling_nav .item .etc {
+  width: 100%;
+  height: 100px;
+  background-image: url("/w-beeseo/src/img/button/it_07.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .main_remodeling_box_wrap .remodeling_box_nav .remodeling_nav .item p {
