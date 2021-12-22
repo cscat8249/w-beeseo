@@ -298,28 +298,35 @@
         margin: 0px auto;
         padding: 0px 10px;
         position: relative;
-        .header {
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        >p {
+            line-height: 40px;
+            font-size: 30px;
+            color: #fff;
+        }
+        >a {
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            >p {
-                line-height: 40px;
-                font-size: 30px;
-                color: #fff;
+            font-size: 15px;
+            color: #fff;
+            opacity: 0.6;
+            &:hover {
+                opacity: 1;
             }
-            >a {
-                display: flex;
-                align-items: center;
-                font-size: 15px;
-                color: #fff;
-                opacity: 0.6;
-                &:hover {
-                    opacity: 1;
-                }
-                >svg {
-                    margin-left: 4px;
-                }
+            >svg {
+                margin-left: 4px;
             }
+        }
+    }
+    .remodeling_box_nav {
+        margin-top: 30px;
+        .remodeling_nav {
+            display: flex;
+            align-items: center;
         }
     }
 }
