@@ -475,3 +475,9 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
+
+.main_remodeling_box_wrap .fixed .heder > p {
+  line-height: 40px;
+  font-size: 30px;
+  color: #fff;
+}

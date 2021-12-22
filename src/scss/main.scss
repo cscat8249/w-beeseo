@@ -302,6 +302,11 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            >p {
+                line-height: 40px;
+                font-size: 30px;
+                color: #fff;
+            }
         }
     }
 }
