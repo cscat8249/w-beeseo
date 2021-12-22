@@ -143,3 +143,44 @@
   -webkit-transition: all 150ms ease-out 0s;
   transition: all 150ms ease-out 0s;
 }
+
+.login_box_wrap .login_box_from .login_membership_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 24px;
+  margin-bottom: 32px;
+}
+
+.login_box_wrap .login_box_from .login_membership_wrap .login_membership_label {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  outline: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login_box_wrap .login_box_from .login_membership_wrap .login_membership_chkeck {
+  margin: 0px 4px 0px 0px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}

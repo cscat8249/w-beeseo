@@ -93,5 +93,30 @@
 
             }
         }
+        .login_membership_wrap {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 24px;
+            margin-bottom: 32px;
+            .login_membership_label {
+                display: inline-flex;
+                margin-top: 0px;
+                margin-bottom: 0px;
+                cursor: pointer;
+                outline: none;
+                touch-action: manipulation;
+                align-items: center;
+            }
+            .login_membership_chkeck {
+                margin: 0px 4px 0px 0px;
+                border: 1px solid #ddd;
+                border-radius: 2px;
+                appearance: none;
+                cursor: pointer;
+                width: 24px;
+                height: 24px;
+            }
+        }
     }
 }
