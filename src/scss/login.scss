@@ -33,5 +33,23 @@
             font-weight: 700;
             line-height: 24px;
         }
+        .login_id_input_wrap {
+            display: inline-flex;
+            flex-direction: column;
+            margin-top: 0px;
+            margin-bottom: 24px;
+            .login_id_input_label {
+                display: inline-flex;
+                flex-direction: column;
+                margin-top: 0px;
+                margin-bottom: 24px;
+                .login_id_input_label_text {
+                    margin-bottom: 8px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+            }
+        }
     }
 }

@@ -53,3 +53,34 @@
   font-weight: 700;
   line-height: 24px;
 }
+
+.login_box_wrap .login_box_from .login_id_input_wrap {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+.login_box_wrap .login_box_from .login_id_input_wrap .login_id_input_label {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+.login_box_wrap .login_box_from .login_id_input_wrap .login_id_input_label .login_id_input_label_text {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
