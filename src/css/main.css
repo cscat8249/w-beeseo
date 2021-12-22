@@ -629,6 +629,7 @@
 }
 
 .main_remodeling_box_wrap .main_like_box {
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
