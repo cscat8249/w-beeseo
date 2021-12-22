@@ -2,7 +2,7 @@
 @import './value.scss';
 @import './method.scss';
 
-.main_store_searchwrap {
+.main_store_search_wrap {
     width: 100%;
     flex-grow: 1;
     height: 400px;
@@ -75,7 +75,7 @@
         }
     }
 }
-.main_banner_box {
+.main_banner_box_wrap {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -285,4 +285,7 @@
             }
         }
     }
+}
+.main_remodeling_box_wrap {
+    
 }
