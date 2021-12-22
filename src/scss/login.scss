@@ -1,0 +1,19 @@
+@charset 'utf-8';
+
+.login_box_wrap {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 0px;
+    .login_box_from {
+        margin: 100px auto 0;
+        border: 1px solid #ddd;
+        width: 400px;
+        background: #fff;
+        text-align: center;
+        z-index: -1;
+        box-shadow: 0 0 20px rgb(0, 0, 0 / 80%);
+    }
+}
