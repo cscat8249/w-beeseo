@@ -45,3 +45,11 @@
   letter-spacing: -0.5px;
   border-bottom: 1px solid whitesmoke;
 }
+
+.login_box_wrap .login_box_from h2 {
+  padding: 32px 0px 48px;
+  color: #222222;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
