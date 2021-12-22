@@ -287,5 +287,21 @@
     }
 }
 .main_remodeling_box_wrap {
-    
+    width: 100%;
+    flex-grow: 1;
+    padding: 60px 0px 80px;
+    background-color: #CDCBBF;
+    overflow: hidden;
+    .fixed {
+        width: 1200px;
+        height: 100%;
+        margin: 0px auto;
+        padding: 0px 10px;
+        position: relative;
+        .heder {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
 }
