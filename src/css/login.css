@@ -184,3 +184,7 @@
   width: 24px;
   height: 24px;
 }
+
+.login_box_wrap .login_box_from .login_membership_wrap .login_membership_chkeck:checked {
+  background-color: aqua;
+}
