@@ -329,6 +329,12 @@
             align-items: center;
             flex-direction: row;
             justify-content: center;
+            .item {
+                p {
+                    padding-top: 5px;
+                    text-align: center;
+                }
+            }
         }
     }
 }

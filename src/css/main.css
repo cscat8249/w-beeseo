@@ -521,3 +521,8 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.main_remodeling_box_wrap .remodeling_box_nav .remodeling_nav .item p {
+  padding-top: 5px;
+  text-align: center;
+}
