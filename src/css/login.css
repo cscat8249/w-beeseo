@@ -61,8 +61,6 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 0px;
-  margin-bottom: 24px;
   text-align: left;
 }
 
