@@ -481,3 +481,23 @@
   font-size: 30px;
   color: #fff;
 }
+
+.main_remodeling_box_wrap .fixed .heder > a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 15px;
+  color: #fff;
+  opacity: 0.6;
+}
+
+.main_remodeling_box_wrap .fixed .heder > a:hover {
+  opacity: 1;
+}
+
+.main_remodeling_box_wrap .fixed .heder > a > svg {
+  margin-left: 4px;
+}

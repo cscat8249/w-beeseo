@@ -307,6 +307,19 @@
                 font-size: 30px;
                 color: #fff;
             }
+            >a {
+                display: flex;
+                align-items: center;
+                font-size: 15px;
+                color: #fff;
+                opacity: 0.6;
+                &:hover {
+                    opacity: 1;
+                }
+                >svg {
+                    margin-left: 4px;
+                }
+            }
         }
     }
 }
