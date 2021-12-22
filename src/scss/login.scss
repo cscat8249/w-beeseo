@@ -111,13 +111,13 @@
             .login_membership_chkeck {
                 margin: 0px 4px 0px 0px;
                 border: 1px solid #ddd;
-                border-radius: 2px;
+                border-radius: 10px;
                 appearance: none;
                 cursor: pointer;
                 width: 24px;
                 height: 24px;
                 &:checked {
-                    background-color: aqua;
+                    background-color: #003458;
                 }
             }
         }

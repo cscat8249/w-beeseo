@@ -176,7 +176,7 @@
 .login_box_wrap .login_box_from .login_membership_wrap .login_membership_chkeck {
   margin: 0px 4px 0px 0px;
   border: 1px solid #ddd;
-  border-radius: 2px;
+  border-radius: 10px;
   -webkit-appearance: none;
      -moz-appearance: none;
           appearance: none;
@@ -186,5 +186,5 @@
 }
 
 .login_box_wrap .login_box_from .login_membership_wrap .login_membership_chkeck:checked {
-  background-color: aqua;
+  background-color: #003458;
 }
