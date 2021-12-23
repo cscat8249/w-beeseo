@@ -151,5 +151,34 @@
             }
            
         }
+        .login_btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 80px;
+            padding: 0px 16px;
+            font-weight: 700;
+            vertical-align: middle;
+            transition: all 150ms ease-out 0s;
+            cursor: pointer;
+            background-color: #2F3C4C;
+            border: 1px solid #2F3C4C;
+            border-radius: 2px;
+            color: #fff;
+            height: 56px;
+            flex: 0 0 auto;
+            &:hover {
+                background-color: rgb(30, 65, 208);
+                border-color: rgb(30, 65, 208);
+            }
+            >span {
+                height: 24px;
+                font-size: 14px;
+                line-height: 24px;
+                flex: 0 0 auto;
+                display: block;
+                position: relative;
+            }
+        }
     }
 }
