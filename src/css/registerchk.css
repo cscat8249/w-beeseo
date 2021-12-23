@@ -42,6 +42,7 @@
 }
 
 .account_registerchk_wrap .account_register_img_info_wrap .account_register_info_img_box h1.title {
+  margin-top: 10px;
   font-size: 24px;
   color: #222;
 }
