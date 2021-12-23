@@ -118,6 +118,7 @@
 }
 
 .account_registerchk_box_wrap .account_registerchk_box > h2 {
+  text-align: center;
   padding: 32px 0px 48px;
   color: #222222;
   font-size: 14px;
