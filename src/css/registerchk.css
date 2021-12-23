@@ -61,6 +61,6 @@
 }
 
 .account_registerchk_wrap .account_register_img_info_wrap .arrow_img_wrap .right {
-  transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
 }
