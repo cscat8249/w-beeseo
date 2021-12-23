@@ -38,3 +38,19 @@
         }
     }
 }
+.account_registerchk_box_wrap {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+    .account_registerchk_box {
+        display: flex;
+        flex-direction: column;
+        width: 588px;
+        margin: 0px auto;
+        padding: 64px;
+        border: 1px solid rgb(245, 245, 245);
+    }
+}
