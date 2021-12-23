@@ -35,9 +35,6 @@
 .account_registerchk_wrap .account_register_img_info_wrap .account_register_info_img_box {
   width: 250px;
   height: 236px;
-  -webkit-box-flex: 2;
-      -ms-flex-positive: 2;
-          flex-grow: 2;
 }
 
 .account_registerchk_wrap .account_register_img_info_wrap .account_register_info_img_box img {
@@ -45,9 +42,6 @@
 }
 
 .account_registerchk_wrap .account_register_img_info_wrap .arrow_img_wrap {
-  -webkit-box-flex: 0.2;
-      -ms-flex-positive: 0.2;
-          flex-grow: 0.2;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
