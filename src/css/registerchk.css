@@ -41,8 +41,13 @@
   width: 50%;
 }
 
+.account_registerchk_wrap .account_register_img_info_wrap .account_register_info_img_box h1.title {
+  font-size: 24px;
+  color: #222;
+}
+
 .account_registerchk_wrap .account_register_img_info_wrap .arrow_img_wrap p {
-  padding-top: 40%;
+  padding-top: 60px;
   margin: auto;
   padding-right: 5px;
   font-size: 0;
