@@ -41,16 +41,8 @@
   width: 50%;
 }
 
-.account_registerchk_wrap .account_register_img_info_wrap .arrow_img_wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .account_registerchk_wrap .account_register_img_info_wrap .arrow_img_wrap p {
+  padding-top: 40%;
   margin: auto;
   padding-right: 5px;
   font-size: 0;

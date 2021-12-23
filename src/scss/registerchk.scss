@@ -22,9 +22,7 @@
             }
         }
         .arrow_img_wrap {
-            display: flex;
-            align-items: center;
-            p { margin: auto; padding-right: 5px; font-size: 0;}
+            p { padding-top: 40%; margin: auto; padding-right: 5px; font-size: 0;}
             i {border: solid #ccc;border-width: 0 2px 2px 0;display: inline-block;padding: 8px;}
             .right {transform: rotate(-45deg);-webkit-transform: rotate(-45deg);}
         }
