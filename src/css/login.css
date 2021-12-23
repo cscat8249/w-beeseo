@@ -173,7 +173,7 @@
           align-items: center;
 }
 
-.login_box_wrap .login_box_from .login_membership_wrap .login_membership_chkeck {
+.login_box_wrap .login_box_from .login_membership_wrap .login_membership_label .login_membership_chkeck {
   margin: 0px 4px 0px 0px;
   border: 1px solid #ddd;
   border-radius: 5px;
@@ -185,6 +185,43 @@
   height: 24px;
 }
 
-.login_box_wrap .login_box_from .login_membership_wrap .login_membership_chkeck:checked {
+.login_box_wrap .login_box_from .login_membership_wrap .login_membership_label .login_membership_chkeck:checked {
   background-color: #003458;
+}
+
+.login_box_wrap .login_box_from .login_membership_wrap .login_membership_label .login_membership_chkeck .checkbox_text {
+  color: #979797;
+}
+
+.login_box_wrap .login_box_from .login_membership_wrap > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login_box_wrap .login_box_from .login_membership_wrap > div p {
+  cursor: pointer;
+}
+
+.login_box_wrap .login_box_from .login_membership_wrap > div .member_join_btn {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
+}
+
+.login_box_wrap .login_box_from .login_membership_wrap > div span {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 1px;
+  height: 12px;
+  background-color: #dfdfdf;
+}
+
+.login_box_wrap .login_box_from .login_membership_wrap > div .member_pwd_reset_btn {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 700;
 }

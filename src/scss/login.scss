@@ -123,16 +123,33 @@
                     }
                 }
             }
-            >div {
+            > div {
                 display: flex;
-                align-items: center;
+                align-items: center;        
+                p {
+                    cursor: pointer;
+                }
                 .member_join_btn {
                     font-size: 12px;
                     line-height: 20px;
                     font-weight: 700;
-                    cursor: pointer;
+                    
                 }
+                span {
+                    margin-left: 8px;
+                    margin-right: 8px;
+                    width: 1px;
+                    height: 12px;
+                    background-color: rgb(223, 223, 223);
+                }
+                .member_pwd_reset_btn {
+                    font-size: 12px;
+                    line-height: 20px;
+                    font-weight: 700;
+                }
+
             }
+           
         }
     }
 }
