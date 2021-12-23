@@ -47,6 +47,12 @@
   color: #222;
 }
 
+.account_registerchk_wrap .account_register_img_info_wrap .account_register_info_img_box p.info {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 5px;
+}
+
 .account_registerchk_wrap .account_register_img_info_wrap .arrow_img_wrap p {
   padding-top: 60px;
   margin: auto;
