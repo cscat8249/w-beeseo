@@ -17,11 +17,13 @@
         .account_register_info_img_box {
             width: 250px;
             height: 236px;
+            flex-grow: 2;
             img {
                 width: 50%;
             }
         }
         .arrow_img_wrap {
+            flex-grow: 1;
             display: flex;
             justify-content: center;
             align-content: center;
