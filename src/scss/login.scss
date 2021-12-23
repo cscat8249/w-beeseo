@@ -107,25 +107,32 @@
                 outline: none;
                 touch-action: manipulation;
                 align-items: center;
-            }
-            .login_membership_chkeck {
-                margin: 0px 4px 0px 0px;
-                border: 1px solid #ddd;
-                border-radius: 5px;
-                appearance: none;
-                cursor: pointer;
-                width: 24px;
-                height: 24px;
-                &:checked {
-                    background-color: #003458;
+                .login_membership_chkeck {
+                    margin: 0px 4px 0px 0px;
+                    border: 1px solid #ddd;
+                    border-radius: 5px;
+                    appearance: none;
+                    cursor: pointer;
+                    width: 24px;
+                    height: 24px;
+                    &:checked {
+                        background-color: #003458;
+                    }
+                    .checkbox_text {
+                        color: rgb(151, 151, 151);;
+                    }
                 }
-                .checkbox_text {
-                    color: rgb(151, 151, 151);;
+            }
+            >div {
+                display: flex;
+                align-items: center;
+                .member_join_btn {
+                    font-size: 12px;
+                    line-height: 20px;
+                    font-weight: 700;
+                    cursor: pointer;
                 }
             }
-            
-            
-            
         }
     }
 }
