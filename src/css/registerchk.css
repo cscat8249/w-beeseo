@@ -32,7 +32,12 @@
   text-align: center;
 }
 
-.account_registerchk_wrap .account_register_img_info_wrap img {
+.account_registerchk_wrap .account_register_img_info_wrap .account_register_info_img_box {
+  width: 250px;
+  height: 236px;
+}
+
+.account_registerchk_wrap .account_register_img_info_wrap .account_register_info_img_box > img {
   width: 50%;
 }
 

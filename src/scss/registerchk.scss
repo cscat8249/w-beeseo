@@ -14,8 +14,12 @@
         justify-content: center;
         align-content: center;
         text-align: center;
-        img {
-            width: 50%;
+        .account_register_info_img_box {
+            width: 250px;
+            height: 236px;
+            > img {
+                width: 50%;
+            }
         }
         .arrow_img_wrap {
             display: flex;
