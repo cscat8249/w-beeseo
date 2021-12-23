@@ -181,4 +181,25 @@
             }
         }
     }
+    .login_sns_wrap {
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+        > span {
+            width: 100px;
+            height: 100px;
+            border: 100;
+            cursor: pointer;
+            + span{
+                margin-left: 16px;
+            }
+            .login_sns_kakao_btn {
+                background-color: rgb(248, 232, 80);
+            }   
+            .login_sns_naver_btn {
+                background-color: #00c73c;
+            }
+        }
+        
+    }
 }
