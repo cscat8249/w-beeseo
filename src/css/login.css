@@ -279,14 +279,14 @@
   margin-top: 32px;
 }
 
-.login_box_wrap .login_sns_wrap > span {
+.login_box_wrap .login_sns_wrap span {
   width: 100px;
   height: 100px;
   border: 100px;
   cursor: pointer;
 }
 
-.login_box_wrap .login_sns_wrap > span + span {
+.login_box_wrap .login_sns_wrap span + span {
   margin-left: 16px;
 }
 
