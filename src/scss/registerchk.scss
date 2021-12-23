@@ -1,2 +1,16 @@
 @charset 'utf-8';
 
+.account_registerchk_wrap {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 120px 0px;
+    .account_register_img_info_wrap {
+        display: flex;
+        flex-direction: column;
+        width: 1200px;
+        margin: 0px auto;
+    }
+}
