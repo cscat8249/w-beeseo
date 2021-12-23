@@ -35,3 +35,21 @@
 .account_registerchk_wrap .account_register_img_info_wrap img {
   width: 50%;
 }
+
+.account_registerchk_wrap .account_register_img_info_wrap .arrow_img_wrap p {
+  margin: auto;
+  padding-right: 5px;
+  font-size: 0;
+}
+
+.account_registerchk_wrap .account_register_img_info_wrap .arrow_img_wrap i {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 8px;
+}
+
+.account_registerchk_wrap .account_register_img_info_wrap .arrow_img_wrap .right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
