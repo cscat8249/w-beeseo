@@ -70,5 +70,31 @@
             line-height: 24px;
             font-weight: 700;
         }
+        .accout_registerchk_box_all_label {
+            display: inline-flex;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            cursor: pointer;
+            outline: none;
+            touch-action: manipulation;
+            align-items: center;
+            .accout_registerchk_box_all {
+                margin: 0px 4px 0px 0px;
+                border: 1px solid #ccc;
+                border-radius: 10px;
+                appearance: none;
+                cursor: pointer;
+                width: 24px;
+                height: 24px;
+                &:checked {
+                    background-color: #2F3C4C;
+                }
+            }
+            .accout_registerchk_box_all_text {
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 700;
+            }
+        }
     }
 }

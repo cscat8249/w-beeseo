@@ -125,3 +125,40 @@
   line-height: 24px;
   font-weight: 700;
 }
+
+.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_box_all_label {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  outline: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_box_all_label .accout_registerchk_box_all {
+  margin: 0px 4px 0px 0px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_box_all_label .accout_registerchk_box_all:checked {
+  background-color: #2F3C4C;
+}
+
+.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_box_all_label .accout_registerchk_box_all_text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
