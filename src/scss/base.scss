@@ -23,9 +23,21 @@ body {
     font-weight: 400;
 }
 
+button {
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    outline: none;
+    touch-action: manipulation;
+}
+
 button > span {
     position: relative;
 }
+
+
 
 #root {
     width: 100%;

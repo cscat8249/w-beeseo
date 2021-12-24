@@ -155,5 +155,22 @@
                 line-height: 20px;
             }
         }
+        .accout_registerchk_assent_btn {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            min-width: 80px;
+            padding: 0px 16px;
+            font-weight: 700;
+            vertical-align: middle;
+            transition: all 150ms ease-out 0s;
+            cursor: pointer;
+            background-color: #003458;
+            border: 1px solid #003458;
+            border-radius: 2px;
+            color: #fff;
+            height: 56px;
+            flex: 0 0 auto;
+        }
     }
 }

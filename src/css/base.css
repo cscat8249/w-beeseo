@@ -28,6 +28,17 @@ body {
   font-weight: 400;
 }
 
+button {
+  margin: 0px;
+  padding: 0px;
+  border-radius: 0px;
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+}
+
 button > span {
   position: relative;
 }
