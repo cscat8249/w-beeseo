@@ -229,3 +229,7 @@
           flex: 0 0 auto;
   cursor: pointer;
 }
+
+.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_boxs .item + div {
+  margin-top: 16px;
+}
