@@ -176,7 +176,7 @@
   border-top: 1px solid whitesmoke;
 }
 
-.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_boxs .item_box {
+.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_boxs .item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -186,7 +186,7 @@
   width: 100%;
 }
 
-.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_boxs .item_box .item {
+.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_boxs .item .item_box {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -201,7 +201,7 @@
           align-items: center;
 }
 
-.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_boxs .item_box .item .item_chk_box {
+.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_boxs .item .item_box .item_chk_box {
   margin: 0px 4px 0px 0px;
   border: 0px;
   border-radius: 5px;
@@ -214,11 +214,11 @@
   height: 24px;
 }
 
-.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_boxs .item_box .item .item_chk_box:checked {
+.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_boxs .item .item_box .item_chk_box:checked {
   background-color: #003458;
 }
 
-.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_boxs .item_box .item .item_text_title {
+.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_boxs .item .item_box .item_text_title {
   font-size: 14px;
   line-height: 24px;
 }
