@@ -1,0 +1,74 @@
+.account_registerchk_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.account_registerchk_wrap .account_register_img_info_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1200px;
+  margin: 0px auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: center;
+}
+
+.account_registerchk_wrap .account_register_img_info_wrap .account_register_info_img_box {
+  width: 280px;
+  height: 236px;
+}
+
+.account_registerchk_wrap .account_register_img_info_wrap .account_register_info_img_box img {
+  width: 40%;
+}
+
+.account_registerchk_wrap .account_register_img_info_wrap .account_register_info_img_box h1.title {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #222;
+}
+
+.account_registerchk_wrap .account_register_img_info_wrap .account_register_info_img_box p.info {
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 5px;
+}
+
+.account_registerchk_wrap .account_register_img_info_wrap .arrow_img_wrap p {
+  padding-top: 60px;
+  margin: auto;
+  padding-right: 5px;
+  font-size: 0;
+}
+
+.account_registerchk_wrap .account_register_img_info_wrap .arrow_img_wrap i {
+  border: solid #ccc;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 8px;
+}
+
+.account_registerchk_wrap .account_register_img_info_wrap .arrow_img_wrap .right {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
