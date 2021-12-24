@@ -195,7 +195,7 @@
 .account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_boxs .item_box .item_chk_box {
   margin: 0px 4px 0px 0px;
   border: 0px;
-  border-radius: 0px;
+  border-radius: 5px;
   border: 1px solid #ccc;
   -webkit-appearance: none;
      -moz-appearance: none;
