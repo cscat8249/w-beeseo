@@ -222,3 +222,10 @@
   font-size: 14px;
   line-height: 24px;
 }
+
+.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_boxs .item .item_box svg {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  cursor: pointer;
+}

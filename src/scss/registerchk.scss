@@ -131,6 +131,10 @@
                         font-size: 14px;
                         line-height: 24px;
                     }
+                    svg {
+                        flex: 0 0 auto;
+                        cursor: pointer;
+                    }
                 }
             }
         }
