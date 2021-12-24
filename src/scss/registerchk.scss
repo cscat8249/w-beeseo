@@ -141,5 +141,15 @@
                 }
             }
         }
+        .accout_registerchk_info_wrap {
+            margin-bottom: 32px;
+            > p {
+                color: rgb(151, 151, 151);
+            }
+            .info_text {
+                font-size: 12px;
+                line-height: 20px;
+            }
+        }
     }
 }

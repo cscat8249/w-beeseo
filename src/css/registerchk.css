@@ -233,3 +233,16 @@
 .account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_boxs .item + div {
   margin-top: 16px;
 }
+
+.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_info_wrap {
+  margin-bottom: 32px;
+}
+
+.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_info_wrap > p {
+  color: #979797;
+}
+
+.account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_info_wrap .info_text {
+  font-size: 12px;
+  line-height: 20px;
+}
