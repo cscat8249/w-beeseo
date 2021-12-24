@@ -72,3 +72,56 @@
   -webkit-transform: rotate(-45deg);
           transform: rotate(-45deg);
 }
+
+.account_registerinfo_box_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0px;
+}
+
+.account_registerinfo_box_wrap .account_registerinfo_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 588px;
+  margin: 0px auto;
+  padding: 64px;
+  border: 1px solid whitesmoke;
+}
+
+.account_registerinfo_box_wrap .account_registerinfo_box > h1 {
+  text-align: center;
+  padding-bottom: 24px;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  border-bottom: 1px solid whitesmoke;
+  font-weight: 700;
+}
+
+.account_registerinfo_box_wrap .account_registerinfo_box > h2 {
+  text-align: center;
+  padding: 32px 0px 48px;
+  color: #222222;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}

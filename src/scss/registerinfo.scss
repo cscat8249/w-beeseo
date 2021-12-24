@@ -39,3 +39,36 @@
         }
     }
 }
+.account_registerinfo_box_wrap {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+    .account_registerinfo_box {
+        display: flex;
+        flex-direction: column;
+        width: 588px;
+        margin: 0px auto;
+        padding: 64px;
+        border: 1px solid rgb(245, 245, 245);
+        > h1 {
+            text-align: center;
+            padding-bottom: 24px;
+            font-size: 30px;
+            line-height: 48px;
+            letter-spacing: -0.5px;
+            border-bottom: 1px solid rgb(245, 245, 245);
+            font-weight: 700;
+        }
+        > h2 {
+            text-align: center;
+            padding: 32px 0px 48px;
+            color: rgb(34, 34, 34);
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 700;
+        }
+    }
+}
