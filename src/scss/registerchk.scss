@@ -171,6 +171,14 @@
             color: #fff;
             height: 56px;
             flex: 0 0 auto;
+            > span {
+                height: 24px;
+                font-size: 14px;
+                line-height: 24px;
+                flex: 0 0 auto;
+                display: block;
+            }
         }
+        
     }
 }
