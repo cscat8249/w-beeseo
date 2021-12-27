@@ -100,6 +100,63 @@
                 }
             }
         }
-        
+        .account_registercertification_residentregistrationnumber_input_wrap {
+            display: inline-flex;
+            flex-direction: column;
+            text-align: left;
+            .account_registercertification_residentregistrationnumber_input_label {
+                display: inline-flex;
+                flex-direction: column;
+                margin-top: 0px;
+                margin-bottom: 24px;
+                .account_registercertification_residentregistrationnumber_input_text {
+                    margin-bottom: 8px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+                .residentregistrationnumber_input_wrap {
+                    display: flex;
+                    align-items: center;
+                    .registercertification_residentregistrationnumberbirth_input_box {
+                        width: 218px;
+                        height: 44px;
+                        padding: 10px 16px;
+                        color: rgb(34, 34, 34);
+                        font-size: 14px;
+                        line-height: 24px;
+                        border: 1px solid rgb(237, 237, 237);
+                        border-radius: 2px;
+                        background-color: rgb(255, 255, 255);
+                        transition: all 150ms ease-out 0s;
+                    }
+                    > span {
+                        margin-left: 8px;
+                        margin-right: 8px;
+                        width: 10px;
+                        height: 1px;
+                        background-color: rgb(223, 223, 223);
+                    }
+                    .registercertification_residentregistrationnumbergendernum_input_box {
+                        width: 44px;
+                        height: 44px;
+                        padding: 10px 16px;
+                        color: rgb(34, 34, 34);
+                        font-size: 14px;
+                        line-height: 24px;
+                        border: 1px solid rgb(237, 237, 237);
+                        border-radius: 2px;
+                        background-color: rgb(255, 255, 255);
+                        transition: all 150ms ease-out 0s;
+                    }
+                    .secret_text {
+                        font-size: 14px;
+                        line-height: 24px;
+                        font-weight: 700;
+                        margin-left: 8px;
+                    }
+                }
+            }
+        }
     }
 }

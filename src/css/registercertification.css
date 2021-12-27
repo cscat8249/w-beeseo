@@ -169,3 +169,85 @@
   -webkit-transition: all 150ms ease-out 0s;
   transition: all 150ms ease-out 0s;
 }
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap .account_registercertification_residentregistrationnumber_input_label {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap .account_registercertification_residentregistrationnumber_input_label .account_registercertification_residentregistrationnumber_input_text {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap .account_registercertification_residentregistrationnumber_input_label .residentregistrationnumber_input_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap .account_registercertification_residentregistrationnumber_input_label .residentregistrationnumber_input_wrap .registercertification_residentregistrationnumberbirth_input_box {
+  width: 218px;
+  height: 44px;
+  padding: 10px 16px;
+  color: #222222;
+  font-size: 14px;
+  line-height: 24px;
+  border: 1px solid #ededed;
+  border-radius: 2px;
+  background-color: white;
+  -webkit-transition: all 150ms ease-out 0s;
+  transition: all 150ms ease-out 0s;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap .account_registercertification_residentregistrationnumber_input_label .residentregistrationnumber_input_wrap > span {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 10px;
+  height: 1px;
+  background-color: #dfdfdf;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap .account_registercertification_residentregistrationnumber_input_label .residentregistrationnumber_input_wrap .registercertification_residentregistrationnumbergendernum_input_box {
+  width: 44px;
+  height: 44px;
+  padding: 10px 16px;
+  color: #222222;
+  font-size: 14px;
+  line-height: 24px;
+  border: 1px solid #ededed;
+  border-radius: 2px;
+  background-color: white;
+  -webkit-transition: all 150ms ease-out 0s;
+  transition: all 150ms ease-out 0s;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap .account_registercertification_residentregistrationnumber_input_label .residentregistrationnumber_input_wrap .secret_text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-left: 8px;
+}
