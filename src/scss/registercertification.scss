@@ -1,0 +1,75 @@
+@charset 'utf-8';
+
+.account_registerchk_wrap {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    .account_register_img_info_wrap {
+        display: flex;
+        width: 1200px;
+        margin: 0px auto;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        .account_register_info_img_box {
+            width: 280px;
+            height: 236px;
+            img {
+                width: 40%;
+            }
+            h1.title {
+                margin-top: 10px;
+                font-size: 24px;
+                color: #222;
+            }
+            p.info {
+                font-size: 14px;
+                color: #ccc;
+                margin-top: 5px;
+            }
+        }
+        .arrow_img_wrap {
+            p { padding-top: 60px; margin: auto; padding-right: 5px; font-size: 0;}
+            i {border: solid #ccc;border-width: 0 2px 2px 0;display: inline-block;padding: 8px;}
+            .right {transform: rotate(-45deg);}
+        }
+    }
+}
+
+.account_registercertification_box_wrap {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+    .account_registercertification_box {
+        display: flex;
+        flex-direction: column;
+        width: 588px;
+        margin: 0px auto;
+        padding: 64px;
+        border: 1px solid rgb(245, 245, 245);
+        > h1 {
+            text-align: center;
+            padding-bottom: 24px;
+            font-size: 30px;
+            line-height: 48px;
+            letter-spacing: -0.5px;
+            border-bottom: 1px solid rgb(245, 245, 245);
+            font-weight: 700;
+        }
+        > h2 {
+            text-align: center;
+            padding: 32px 0px 48px;
+            color: rgb(34, 34, 34);
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 700;
+        }
+    }
+}
