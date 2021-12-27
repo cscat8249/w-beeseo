@@ -257,5 +257,29 @@
                 display: block;
             }
         }
+        .accout_registerchk_assent_no_btn {
+            display: inline-flex;
+            -webkit-box-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            justify-content: center;
+            font-weight: 700;
+            vertical-align: middle;
+            transition: all 150ms ease-out 0s;
+            cursor: pointer;
+            background-color: transparent;
+            border: none;
+            color: rgb(34, 34, 34);
+            height: 28px;
+            flex: 0 0 auto;
+            > span {
+                position: relative;
+                flex: 0 0 auto;
+                display: block;
+                height: 20px;
+                font-size: 12px;
+                line-height: 20px;
+            }
+        }
     }
 }

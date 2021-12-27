@@ -401,3 +401,38 @@
           flex: 0 0 auto;
   display: block;
 }
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_assent_no_btn {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  font-weight: 700;
+  vertical-align: middle;
+  -webkit-transition: all 150ms ease-out 0s;
+  transition: all 150ms ease-out 0s;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #222222;
+  height: 28px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_assent_no_btn > span {
+  position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  display: block;
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+}
