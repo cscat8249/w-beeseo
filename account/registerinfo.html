@@ -7,6 +7,7 @@
     <title>상가임대/매매포털-우리동네창업파트너＊우비서</title>
     <link rel="stylesheet" href="/w-beeseo/src/css/import.css">
     <link rel="stylesheet" href="/w-beeseo/src/css/registerinfo.css">
+    <script type="javascript" src="/src/js/enrollment.js"></script>
 </head>
 <body>
     <div id="root">
@@ -105,6 +106,14 @@
                         </label>
                     </div>
                     <input type="password" autocomplete="off" name="passwordchk" placeholder="비밀번호 확인" class="registerinfo_passwordchk_input_box">
+                    <form name="frm">
+                        <input type="text" size="18" name="output">
+                        <input type="button" value="코드생성" onclick="populateform(this.form.thelength.value)">
+                        <input type="text" size="18" name="che">
+                        <input type="button" value="비교" onclick="check()">
+                        <b>문자 길이:</b>
+                        <input type="text" name="telength" size="3" value="0">
+                    </form>
                 </div>
             </div>
 
