@@ -403,6 +403,7 @@
 }
 
 .account_registercertification_box_wrap .accout_registerchk_assent_no_btn {
+  margin-top: 24px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -435,4 +436,8 @@
   height: 20px;
   font-size: 12px;
   line-height: 20px;
+}
+
+.account_registercertification_box_wrap .accout_registerchk_assent_no_btn:hover > span {
+  border-bottom: 1px solid #222222;
 }
