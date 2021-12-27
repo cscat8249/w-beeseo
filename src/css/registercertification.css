@@ -364,7 +364,7 @@
   margin-top: 16px;
 }
 
-.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_assent_btn {
+.account_registercertification_box_wrap .accout_registerchk_assent_btn {
   margin-top: 32px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -392,7 +392,7 @@
           flex: 0 0 auto;
 }
 
-.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_assent_btn > span {
+.account_registercertification_box_wrap .accout_registerchk_assent_btn > span {
   height: 24px;
   font-size: 14px;
   line-height: 24px;
@@ -402,7 +402,7 @@
   display: block;
 }
 
-.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_assent_no_btn {
+.account_registercertification_box_wrap .accout_registerchk_assent_no_btn {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -426,7 +426,7 @@
           flex: 0 0 auto;
 }
 
-.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_assent_no_btn > span {
+.account_registercertification_box_wrap .accout_registerchk_assent_no_btn > span {
   position: relative;
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
