@@ -308,7 +308,7 @@
   transition: all 150ms ease-out 0s;
 }
 
-.account_registerinfo_box_wrap .account_registerinfo_box .account_registerinfo_password_input_wrap .registerinfo_passwordchk_input_box {
+.account_registerinfo_box_wrap .account_registerinfo_box .registerinfo_passwordchk_input_box {
   width: 460px;
   height: 44px;
   padding: 10px 16px;
