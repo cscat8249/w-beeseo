@@ -159,5 +159,47 @@
                 }
             }
         }
+        .account_registerinfo_password_input_wrap {
+            display: inline-flex;
+            flex-direction: column;
+            margin-top: 0px;
+            margin-bottom: 24px;
+            .account_registerinfo_password_input_label {
+                display: inline-flex;
+                flex-direction: column;
+                outline: none;
+                touch-action: manipulation;
+                .account_registerinfo_password_input_text {
+                    margin-bottom: 8px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+                .registerinfo_password_input_box {
+                    width: 460px;
+                    height: 44px;
+                    padding: 10px 16px;
+                    color: rgb(34, 34, 34);
+                    font-size: 14px;
+                    line-height: 24px;
+                    border: 1px solid rgb(237, 237, 237);
+                    border-radius: 2px;
+                    background-color: rgb(255, 255, 255);
+                    transition: all 150ms ease-out 0s;
+                }
+            }
+            .registerinfo_passwordchk_input_box {
+                width: 460px;
+                height: 44px;
+                padding: 10px 16px;
+                color: rgb(34, 34, 34);
+                font-size: 14px;
+                line-height: 24px;
+                border: 1px solid rgb(237, 237, 237);
+                border-radius: 2px;
+                background-color: rgb(255, 255, 255);
+                transition: all 150ms ease-out 0s;
+            }
+        }
     }
 }
