@@ -159,4 +159,78 @@
             }
         }
     }
+    .account_registercertification_registerchk_boxs_wrap {
+        margin-top: 24px;
+        .accout_registerchk_box_all_label {
+            display: inline-flex;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            cursor: pointer;
+            outline: none;
+            touch-action: manipulation;
+            align-items: center;
+            .accout_registerchk_box_all {
+                margin: 0px 4px 0px 0px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                appearance: none;
+                cursor: pointer;
+                width: 24px;
+                height: 24px;
+                &:checked {
+                    background-color: #003458;
+                }
+            }
+            .accout_registerchk_box_all_text {
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 700;
+            }
+        }
+        .accout_registerchk_boxs {
+            display: flex;
+            flex-direction: column;
+            margin-top: 16px;
+            padding: 16px 0px;
+            border-top: 1px solid rgb(245, 245, 245);
+            .item {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                .item_box {
+                    display: inline-flex;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    cursor: pointer;
+                    outline: none;
+                    touch-action: manipulation;
+                    align-items: center;
+                    .item_chk_box {
+                        margin: 0px 4px 0px 0px;
+                        border: 0px;
+                        border-radius: 5px;
+                        border: 1px solid #ccc;
+                        appearance: none;
+                        cursor: pointer;
+                        width: 24px;
+                        height: 24px;
+                        &:checked {
+                            background-color: #003458;
+                        }
+                    }
+                    .item_text_title {
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+                svg {
+                    flex: 0 0 auto;
+                    cursor: pointer;
+                }
+                + div {
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
 }
