@@ -201,5 +201,11 @@
             background-color: rgb(255, 255, 255);
             transition: all 150ms ease-out 0s;
         }
+        .account_registerinfo_recaptcha_wrap {
+            display: inline-flex;
+            flex-direction: column;
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
     }
 }
