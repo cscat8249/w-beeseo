@@ -6,7 +6,7 @@
     flex-grow: 1;
     align-items: center;
     justify-content: center;
-    margin: 50px 0px;
+    margin: 120px 0px;
     .account_registerchk_box {
         display: flex;
         flex-direction: column;
@@ -103,6 +103,7 @@
             }
         }
         .accout_registerchk_assent_btn {
+            margin-top: 32px;
             display: inline-flex;
             align-items: center;
             justify-content: center;

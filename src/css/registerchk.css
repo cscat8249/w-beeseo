@@ -15,7 +15,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 50px 0px;
+  margin: 120px 0px;
 }
 
 .account_registerchk_box_wrap .account_registerchk_box {
@@ -160,6 +160,7 @@
 }
 
 .account_registerchk_box_wrap .account_registerchk_box .accout_registerchk_assent_btn {
+  margin-top: 32px;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
