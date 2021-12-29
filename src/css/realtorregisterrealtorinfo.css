@@ -118,7 +118,7 @@
   line-height: 68px;
 }
 
-.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap .registercertification_table_wrap li.item .header {
+.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap .registercertification_table_wrap li.item .table_header {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
