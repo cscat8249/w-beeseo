@@ -24,4 +24,11 @@
         line-height: 24px;
         font-weight: 700;
     }
+    .card_register_wrap {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        align-items: center;
+        justify-content: center;
+    }
 }
