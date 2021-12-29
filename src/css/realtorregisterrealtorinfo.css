@@ -17,3 +17,17 @@
           justify-content: center;
   margin: 120px 0px;
 }
+
+.account_registerrealtorinfo_wrap .account_registercertification_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 588px;
+  margin: 0px auto;
+  padding: 64px;
+  border: 1px solid whitesmoke;
+}

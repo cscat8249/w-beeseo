@@ -7,4 +7,12 @@
     align-items: center;
     justify-content: center;
     margin: 120px 0px;
+    .account_registercertification_box {
+        display: flex;
+        flex-direction: column;
+        width: 588px;
+        margin: 0px auto;
+        padding: 64px;
+        border: 1px solid rgb(245, 245, 245);
+    }
 }
