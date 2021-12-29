@@ -212,7 +212,7 @@
   height: 48px;
 }
 
-.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .businessregistration_input_wrap + input {
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .businessregistration_input_wrap > input + input {
   margin-left: 10px;
 }
 

@@ -133,9 +133,9 @@
                 margin-top: 7px;
                 > input {
                     height: 48px;
-                }
-                + input {
-                    margin-left: 10px;
+                    &+input {
+                        margin-left: 10px;
+                    }
                 }
                 .businessregistration_input {
                     padding: 0px 14px;
