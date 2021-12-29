@@ -82,6 +82,8 @@
 }
 
 .register_wrap .card_register_wrap .card_item .title {
+  margin-top: 10px;
+  margin-bottom: 20px;
   text-align: center;
   font-size: 22px;
   font-weight: 700;
