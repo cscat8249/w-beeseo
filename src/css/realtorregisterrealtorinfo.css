@@ -365,3 +365,25 @@
 .account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .document_wrap + div {
   margin-left: 11px;
 }
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_submit_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 54px;
+  margin-top: 30px;
+}
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_submit_wrap .registercertification_info_submit_btn {
+  width: 100%;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 2px;
+  color: white;
+  border: 1px solid #5359fe;
+  background-color: #5359fe;
+}

@@ -241,5 +241,21 @@
                 }   
             }
         }
+        .account_registercertification_info_submit_wrap {
+            display: flex;
+            justify-content: space-between;
+            height: 54px;
+            margin-top: 30px;
+            .registercertification_info_submit_btn {
+                width: 100%;
+                height: 100%;
+                font-size: 16px;
+                font-weight: 700;
+                border-radius: 2px;
+                color: rgb(255, 255, 255);
+                border: 1px solid rgb(83, 89, 254);
+                background-color: rgb(83, 89, 254);
+            }
+        }
     }
 }
