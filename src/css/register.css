@@ -79,6 +79,10 @@
   text-align: center;
 }
 
+.register_wrap .card_register_wrap .user_card .img_wrap img {
+  width: 80%;
+}
+
 .register_wrap .card_register_wrap .realtor_card {
   margin-left: 20px;
   display: -webkit-box;
@@ -101,4 +105,8 @@
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+}
+
+.register_wrap .card_register_wrap .realtor_card .img_wrap img {
+  width: 80%;
 }

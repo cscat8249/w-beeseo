@@ -39,6 +39,9 @@
                 display: inline-flex;
                 flex-direction: column;
                 text-align: center;
+                img {
+                    width: 80%;
+                }
             }
         }
         .realtor_card {
@@ -51,6 +54,9 @@
                 display: inline-flex;
                 flex-direction: column;
                 text-align: center;
+                img {
+                    width: 80%;
+                }
             }
         }
     }
