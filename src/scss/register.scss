@@ -33,12 +33,14 @@
         .card_item {
             display: flex;
             flex-direction: column;
+            text-align: center;
+            justify-content: center;    
             width: 337px;
             border: 1px solid #e0e0e0;
             .img_wrap {
                 display: inline-flex;
                 flex-direction: column;
-                justify-content: center;
+                // justify-content: center;
             }
             .title {
                 margin-top: 10px;
