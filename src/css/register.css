@@ -17,3 +17,13 @@
           justify-content: center;
   margin: 120px 0px;
 }
+
+.register_wrap > h1 {
+  text-align: center;
+  padding-bottom: 24px;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  border-bottom: 1px solid whitesmoke;
+  font-weight: 700;
+}
