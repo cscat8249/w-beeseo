@@ -88,3 +88,9 @@
   font-size: 22px;
   font-weight: 700;
 }
+
+.register_wrap .card_register_wrap .card_item .description {
+  margin-top: 10px;
+  font-size: 18px;
+  letter-spacing: -1px;
+}
