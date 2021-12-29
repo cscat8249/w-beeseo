@@ -55,3 +55,15 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.register_wrap .card_register_wrap .user_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 337px;
+  border: 1px solid #e0e0e0;
+}
