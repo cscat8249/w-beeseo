@@ -27,3 +27,12 @@
   border-bottom: 1px solid whitesmoke;
   font-weight: 700;
 }
+
+.register_wrap > h2 {
+  text-align: center;
+  padding: 32px 0px 48px;
+  color: #222222;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
