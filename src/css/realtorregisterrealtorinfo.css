@@ -57,3 +57,29 @@
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap .registercertification_info_wrap .registercertification_info_text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -4px;
+  color: #8f8f8f;
+}
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap .registercertification_info_wrap .registercertification_info_text > p {
+  color: #8f8f8f;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap .registercertification_info_wrap .registercertification_info_text > p:first-child {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  margin-right: 4px;
+  font-size: 15px;
+}
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap .registercertification_info_wrap .registercertification_info_text > p.red {
+  color: #f2163a;
+}

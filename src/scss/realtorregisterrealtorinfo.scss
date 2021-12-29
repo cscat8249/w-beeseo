@@ -34,6 +34,24 @@
             .registercertification_info_wrap {
                 margin-top: 10px;
                 margin-bottom: 20px;
+                .registercertification_info_text {
+                    display: flex;
+                    margin-left: -4px;
+                    color: rgb(143, 143, 143);
+                    > p {
+                        color: rgb(143, 143, 143);
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                    > p:first-child {
+                        flex: 0 0 auto;
+                        margin-right: 4px;
+                        font-size: 15px;
+                    }
+                    > p.red {
+                        color: rgb(242, 22, 58);
+                    }
+                }
             }
         }
     }
