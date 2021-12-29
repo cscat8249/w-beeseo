@@ -343,3 +343,7 @@
   z-index: 1;
   opacity: 0.6;
 }
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap + div {
+  margin-left: 11px;
+}
