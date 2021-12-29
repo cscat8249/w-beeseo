@@ -179,6 +179,10 @@
           flex-direction: column;
 }
 
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap > li + li {
+  margin-top: 20px;
+}
+
 .account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .businessregistration_title_wrap {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
@@ -226,4 +230,23 @@
       -ms-flex-positive: 1;
           flex-grow: 1;
   width: 0px;
+}
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .registercertification_document_title_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .registercertification_document_title_wrap > h1 {
+  color: #434343;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
 }

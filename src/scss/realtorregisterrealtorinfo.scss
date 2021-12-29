@@ -115,6 +115,9 @@
             > li {
                 display: flex;
                 flex-direction: column;
+                &+ li {
+                    margin-top: 20px;
+                }
             }
             .businessregistration_title_wrap {
                 flex: 0 0 auto;
@@ -145,6 +148,17 @@
                     background-color: rgb(255, 255, 255);
                     flex-grow: 1;
                     width: 0px;
+                }
+            }
+            .registercertification_document_title_wrap {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                > h1 {
+                    color: rgb(67, 67, 67);
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 24px;
                 }
             }
         }
