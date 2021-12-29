@@ -68,6 +68,17 @@
   border: 1px solid #e0e0e0;
 }
 
+.register_wrap .card_register_wrap .user_card .img_wrap {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+
 .register_wrap .card_register_wrap .realtor_card {
   margin-left: 20px;
   display: -webkit-box;
@@ -79,4 +90,15 @@
           flex-direction: column;
   width: 337px;
   border: 1px solid #e0e0e0;
+}
+
+.register_wrap .card_register_wrap .realtor_card .img_wrap {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
 }
