@@ -188,6 +188,12 @@
                         line-height: 20px;
                     }
                 }
+                .document_file_img_box_wrap {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin-top: 7px;
+                }
             }   
         }
     }
