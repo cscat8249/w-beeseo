@@ -344,6 +344,24 @@
   opacity: 0.6;
 }
 
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .document_wrap .document_file_img_box_wrap .document_file_img_box .upload_file_btn {
+  padding: 4px 12px;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+  color: #434343;
+  border: 1px solid #8f8f8f;
+  border-radius: 2px;
+  background-color: white;
+  visibility: visible;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
 .account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .document_wrap + div {
   margin-left: 11px;
 }

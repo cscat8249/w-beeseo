@@ -217,6 +217,22 @@
                                 opacity: 0.6;
                             }
                         }
+                        .upload_file_btn {
+                            padding: 4px 12px;
+                            font-size: 12px;
+                            text-align: center;
+                            line-height: 20px;
+                            color: rgb(67, 67, 67);
+                            border: 1px solid rgb(143, 143, 143);
+                            border-radius: 2px;
+                            background-color: rgb(255, 255, 255);
+                            visibility: visible;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            z-index: 2;
+                        }
                     }
                     
                 }
