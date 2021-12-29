@@ -69,6 +69,7 @@
 }
 
 .register_wrap .card_register_wrap .realtor_card {
+  margin-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
