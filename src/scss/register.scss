@@ -30,7 +30,7 @@
         flex-grow: 1;
         align-items: center;
         justify-content: center;
-        .user_card {
+        .card_item {
             display: flex;
             flex-direction: column;
             width: 337px;
@@ -40,18 +40,12 @@
                 flex-direction: column;
                 justify-content: center;
             }
-        }
-        .realtor_card {
-            margin-left: 20px;
-            display: flex;
-            flex-direction: column;
-            width: 337px;
-            border: 1px solid #e0e0e0;
-            .img_wrap {
-                display: inline-flex;
-                flex-direction: column;
-                justify-content: center;
+            .title {
+                text-align: center;
+                font-size: 22px;
+                font-weight: 700;
             }
         }
+        
     }
 }

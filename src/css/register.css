@@ -56,7 +56,7 @@
           justify-content: center;
 }
 
-.register_wrap .card_register_wrap .user_card {
+.register_wrap .card_register_wrap .card_item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,7 +68,7 @@
   border: 1px solid #e0e0e0;
 }
 
-.register_wrap .card_register_wrap .user_card .img_wrap {
+.register_wrap .card_register_wrap .card_item .img_wrap {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -81,28 +81,8 @@
           justify-content: center;
 }
 
-.register_wrap .card_register_wrap .realtor_card {
-  margin-left: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 337px;
-  border: 1px solid #e0e0e0;
-}
-
-.register_wrap .card_register_wrap .realtor_card .img_wrap {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+.register_wrap .card_register_wrap .card_item .title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
 }
