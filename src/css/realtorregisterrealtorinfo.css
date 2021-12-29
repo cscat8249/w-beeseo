@@ -42,11 +42,13 @@
   font-weight: 700;
 }
 
-.account_registerrealtorinfo_wrap .account_registercertification_box > h2 {
-  text-align: center;
-  padding: 32px 0px 48px;
-  color: #222222;
-  font-size: 14px;
+.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap {
+  margin: 30px 0px;
+}
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap .sub_title {
+  font-size: 16px;
   line-height: 24px;
   font-weight: 700;
+  color: #434343;
 }
