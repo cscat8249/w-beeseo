@@ -37,6 +37,7 @@
             justify-content: center;    
             width: 337px;
             border: 1px solid #e0e0e0;
+            padding: 60px;
             .img_wrap {
                 display: inline-flex;
                 flex-direction: column;
@@ -78,7 +79,6 @@
                     height: 24px;
                     font-size: 14px;
                     line-height: 24px;
-                
                 }
             }
             & +div {
