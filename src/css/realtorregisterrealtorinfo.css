@@ -155,3 +155,12 @@
 .account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap .registercertification_table_wrap li.item .table_content > p {
   line-height: 26px;
 }
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap .registercertification_info_error {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5359fe;
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -101,6 +101,14 @@
                     }
                 }
             }
+            .registercertification_info_error {
+                display: inline-block;
+                font-size: 14px;
+                line-height: 20px;
+                color: rgb(83, 89, 254);
+                text-decoration: underline;
+                cursor: pointer;
+            }
         }
     }
 }
