@@ -285,3 +285,19 @@
       -ms-flex: 1 1 0%;
           flex: 1 1 0%;
 }
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .document_wrap .document_title {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .document_wrap .document_title > h2 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  color: #434343;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
