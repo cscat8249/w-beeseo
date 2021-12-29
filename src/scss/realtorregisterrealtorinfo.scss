@@ -87,6 +87,11 @@
                         padding-left: 20px;
                         background-color: rgb(252, 252, 252);
                     }
+                    .content {
+                        > p {
+                            line-height: 26px;
+                        }
+                    }
                 }
             }
         }
