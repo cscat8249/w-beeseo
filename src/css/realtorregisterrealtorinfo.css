@@ -133,7 +133,7 @@
   background-color: #fcfcfc;
 }
 
-.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap .registercertification_table_wrap li.item .content {
+.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap .registercertification_table_wrap li.item .table_content {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -152,6 +152,6 @@
   overflow: hidden;
 }
 
-.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap .registercertification_table_wrap li.item .content > p {
+.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap .registercertification_table_wrap li.item .table_content > p {
   line-height: 26px;
 }
