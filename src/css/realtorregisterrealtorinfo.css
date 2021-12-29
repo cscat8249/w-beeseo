@@ -52,3 +52,8 @@
   font-weight: 700;
   color: #434343;
 }
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .account_registercertification_info_wrap .registercertification_info_wrap {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
