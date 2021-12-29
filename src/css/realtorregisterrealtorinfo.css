@@ -31,3 +31,22 @@
   padding: 64px;
   border: 1px solid whitesmoke;
 }
+
+.account_registerrealtorinfo_wrap .account_registercertification_box > h1 {
+  text-align: center;
+  padding-bottom: 24px;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  border-bottom: 1px solid whitesmoke;
+  font-weight: 700;
+}
+
+.account_registerrealtorinfo_wrap .account_registercertification_box > h2 {
+  text-align: center;
+  padding: 32px 0px 48px;
+  color: #222222;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
