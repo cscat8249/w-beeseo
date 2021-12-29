@@ -195,7 +195,7 @@
   font-weight: 700;
 }
 
-.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .document_file_img_box_wrap {
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .businessregistration_input_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -208,15 +208,15 @@
   margin-top: 7px;
 }
 
-.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .document_file_img_box_wrap > input {
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .businessregistration_input_wrap > input {
   height: 48px;
 }
 
-.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .document_file_img_box_wrap + input {
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .businessregistration_input_wrap + input {
   margin-left: 10px;
 }
 
-.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .document_file_img_box_wrap .businessregistration_input {
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .businessregistration_input_wrap .businessregistration_input {
   padding: 0px 14px;
   color: #222222;
   font-size: 14px;
