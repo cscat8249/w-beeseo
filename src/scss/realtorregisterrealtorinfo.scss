@@ -110,5 +110,12 @@
                 cursor: pointer;
             }
         }
+        .registercertification_info_businessregistration_wrap {
+            width: 100%;
+            > li {
+                display: flex;
+                flex-direction: column;
+            }
+        }
     }
 }
