@@ -95,3 +95,7 @@
   font-size: 18px;
   letter-spacing: -1px;
 }
+
+.register_wrap .card_register_wrap .card_item + div {
+  margin-left: 17px;
+}
