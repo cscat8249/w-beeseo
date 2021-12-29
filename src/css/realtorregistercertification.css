@@ -1,0 +1,368 @@
+.account_registercertification_box_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 50px 0px;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 588px;
+  margin: 0px auto;
+  padding: 64px;
+  border: 1px solid whitesmoke;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box > h1 {
+  text-align: center;
+  padding-bottom: 24px;
+  font-size: 30px;
+  line-height: 48px;
+  letter-spacing: -0.5px;
+  border-bottom: 1px solid whitesmoke;
+  font-weight: 700;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box > h2 {
+  text-align: center;
+  padding: 32px 0px 48px;
+  color: #222222;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_firstname_input_wrap {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_firstname_input_wrap .account_registercertification_firstname_input_label {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_firstname_input_wrap .account_registercertification_firstname_input_label .account_registercertification_firstname_input_text {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_firstname_input_wrap .account_registercertification_firstname_input_label .registercertification_firstname_input_box {
+  width: 460px;
+  height: 44px;
+  padding: 10px 16px;
+  color: #222222;
+  font-size: 14px;
+  line-height: 24px;
+  border: 1px solid #ededed;
+  border-radius: 2px;
+  background-color: white;
+  -webkit-transition: all 150ms ease-out 0s;
+  transition: all 150ms ease-out 0s;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap .account_registercertification_residentregistrationnumber_input_label {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap .account_registercertification_residentregistrationnumber_input_label .account_registercertification_residentregistrationnumber_input_text {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap .account_registercertification_residentregistrationnumber_input_label .residentregistrationnumber_input_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap .account_registercertification_residentregistrationnumber_input_label .residentregistrationnumber_input_wrap .registercertification_residentregistrationnumberbirth_input_box {
+  width: 218px;
+  height: 44px;
+  padding: 10px 16px;
+  color: #222222;
+  font-size: 14px;
+  line-height: 24px;
+  border: 1px solid #ededed;
+  border-radius: 2px;
+  background-color: white;
+  -webkit-transition: all 150ms ease-out 0s;
+  transition: all 150ms ease-out 0s;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap .account_registercertification_residentregistrationnumber_input_label .residentregistrationnumber_input_wrap > span {
+  margin-left: 8px;
+  margin-right: 8px;
+  width: 10px;
+  height: 1px;
+  background-color: #dfdfdf;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap .account_registercertification_residentregistrationnumber_input_label .residentregistrationnumber_input_wrap .registercertification_residentregistrationnumbergendernum_input_box {
+  width: 44px;
+  height: 44px;
+  padding: 10px 16px;
+  color: #222222;
+  font-size: 14px;
+  line-height: 24px;
+  border: 1px solid #ededed;
+  border-radius: 2px;
+  background-color: white;
+  -webkit-transition: all 150ms ease-out 0s;
+  transition: all 150ms ease-out 0s;
+}
+
+.account_registercertification_box_wrap .account_registercertification_box .account_registercertification_residentregistrationnumber_input_wrap .account_registercertification_residentregistrationnumber_input_label .residentregistrationnumber_input_wrap .secret_text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap {
+  margin-top: 24px;
+}
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_box_all_label {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  outline: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_box_all_label .accout_registerchk_box_all {
+  margin: 0px 4px 0px 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_box_all_label .accout_registerchk_box_all:checked {
+  background-color: #003458;
+}
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_box_all_label .accout_registerchk_box_all_text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+}
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_boxs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 16px;
+  padding: 16px 0px;
+  border-top: 1px solid whitesmoke;
+}
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_boxs .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_boxs .item .item_box {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  outline: none;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_boxs .item .item_box .item_chk_box {
+  margin: 0px 4px 0px 0px;
+  border: 0px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+}
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_boxs .item .item_box .item_chk_box:checked {
+  background-color: #003458;
+}
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_boxs .item .item_box .item_text_title {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_boxs .item svg {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  cursor: pointer;
+}
+
+.account_registercertification_box_wrap .account_registercertification_registerchk_boxs_wrap .accout_registerchk_boxs .item + div {
+  margin-top: 16px;
+}
+
+.account_registercertification_box_wrap .accout_registerchk_assent_btn {
+  margin-top: 32px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-width: 80px;
+  padding: 0px 16px;
+  font-weight: 700;
+  vertical-align: middle;
+  -webkit-transition: all 150ms ease-out 0s;
+  transition: all 150ms ease-out 0s;
+  cursor: pointer;
+  background-color: #326cf9;
+  border: 1px solid #326cf9;
+  border-radius: 2px;
+  color: white;
+  height: 56px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.account_registercertification_box_wrap .accout_registerchk_assent_btn > span {
+  height: 24px;
+  font-size: 14px;
+  line-height: 24px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  display: block;
+}
+
+.account_registercertification_box_wrap .accout_registerchk_assent_no_btn {
+  margin-top: 24px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+  vertical-align: middle;
+  -webkit-transition: all 150ms ease-out 0s;
+  transition: all 150ms ease-out 0s;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  color: #222222;
+  height: 28px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+}
+
+.account_registercertification_box_wrap .accout_registerchk_assent_no_btn > span {
+  position: relative;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  display: block;
+  height: 20px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.account_registercertification_box_wrap .accout_registerchk_assent_no_btn:hover > span {
+  border-bottom: 1px solid #222222;
+}

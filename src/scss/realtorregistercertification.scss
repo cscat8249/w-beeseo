@@ -1,0 +1,249 @@
+@charset 'utf-8';
+
+.account_registercertification_box_wrap {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0px;
+    .account_registercertification_box {
+        display: flex;
+        flex-direction: column;
+        width: 588px;
+        margin: 0px auto;
+        padding: 64px;
+        border: 1px solid rgb(245, 245, 245);
+        > h1 {
+            text-align: center;
+            padding-bottom: 24px;
+            font-size: 30px;
+            line-height: 48px;
+            letter-spacing: -0.5px;
+            border-bottom: 1px solid rgb(245, 245, 245);
+            font-weight: 700;
+        }
+        > h2 {
+            text-align: center;
+            padding: 32px 0px 48px;
+            color: rgb(34, 34, 34);
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 700;
+        }
+        .account_registercertification_firstname_input_wrap {
+            display: inline-flex;
+            flex-direction: column;
+            text-align: left;
+            .account_registercertification_firstname_input_label {
+                display: inline-flex;
+                flex-direction: column;
+                margin-top: 0px;
+                margin-bottom: 24px;
+                .account_registercertification_firstname_input_text {
+                    margin-bottom: 8px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+                .registercertification_firstname_input_box {
+                    width: 460px;
+                    height: 44px;
+                    padding: 10px 16px;
+                    color: rgb(34, 34, 34);
+                    font-size: 14px;
+                    line-height: 24px;
+                    border: 1px solid rgb(237, 237, 237);
+                    border-radius: 2px;
+                    background-color: rgb(255, 255, 255);
+                    transition: all 150ms ease-out 0s;
+                }
+            }
+        }
+        .account_registercertification_residentregistrationnumber_input_wrap {
+            display: inline-flex;
+            flex-direction: column;
+            text-align: left;
+            .account_registercertification_residentregistrationnumber_input_label {
+                display: inline-flex;
+                flex-direction: column;
+                margin-top: 0px;
+                margin-bottom: 24px;
+                .account_registercertification_residentregistrationnumber_input_text {
+                    margin-bottom: 8px;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 24px;
+                }
+                .residentregistrationnumber_input_wrap {
+                    display: flex;
+                    align-items: center;
+                    .registercertification_residentregistrationnumberbirth_input_box {
+                        width: 218px;
+                        height: 44px;
+                        padding: 10px 16px;
+                        color: rgb(34, 34, 34);
+                        font-size: 14px;
+                        line-height: 24px;
+                        border: 1px solid rgb(237, 237, 237);
+                        border-radius: 2px;
+                        background-color: rgb(255, 255, 255);
+                        transition: all 150ms ease-out 0s;
+                    }
+                    > span {
+                        margin-left: 8px;
+                        margin-right: 8px;
+                        width: 10px;
+                        height: 1px;
+                        background-color: rgb(223, 223, 223);
+                    }
+                    .registercertification_residentregistrationnumbergendernum_input_box {
+                        width: 44px;
+                        height: 44px;
+                        padding: 10px 16px;
+                        color: rgb(34, 34, 34);
+                        font-size: 14px;
+                        line-height: 24px;
+                        border: 1px solid rgb(237, 237, 237);
+                        border-radius: 2px;
+                        background-color: rgb(255, 255, 255);
+                        transition: all 150ms ease-out 0s;
+                    }
+                    .secret_text {
+                        font-size: 14px;
+                        line-height: 24px;
+                        font-weight: 700;
+                        margin-left: 8px;
+                    }
+                }
+            }
+        }
+    }
+    .account_registercertification_registerchk_boxs_wrap {
+        margin-top: 24px;
+        .accout_registerchk_box_all_label {
+            display: inline-flex;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            cursor: pointer;
+            outline: none;
+            touch-action: manipulation;
+            align-items: center;
+            .accout_registerchk_box_all {
+                margin: 0px 4px 0px 0px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                appearance: none;
+                cursor: pointer;
+                width: 24px;
+                height: 24px;
+                &:checked {
+                    background-color: #003458;
+                }
+            }
+            .accout_registerchk_box_all_text {
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 700;
+            }
+        }
+        .accout_registerchk_boxs {
+            display: flex;
+            flex-direction: column;
+            margin-top: 16px;
+            padding: 16px 0px;
+            border-top: 1px solid rgb(245, 245, 245);
+            .item {
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                .item_box {
+                    display: inline-flex;
+                    margin-top: 0px;
+                    margin-bottom: 0px;
+                    cursor: pointer;
+                    outline: none;
+                    touch-action: manipulation;
+                    align-items: center;
+                    .item_chk_box {
+                        margin: 0px 4px 0px 0px;
+                        border: 0px;
+                        border-radius: 5px;
+                        border: 1px solid #ccc;
+                        appearance: none;
+                        cursor: pointer;
+                        width: 24px;
+                        height: 24px;
+                        &:checked {
+                            background-color: #003458;
+                        }
+                    }
+                    .item_text_title {
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+                }
+                svg {
+                    flex: 0 0 auto;
+                    cursor: pointer;
+                }
+                + div {
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+    .accout_registerchk_assent_btn {
+        margin-top: 32px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 80px;
+        padding: 0px 16px;
+        font-weight: 700;
+        vertical-align: middle;
+        transition: all 150ms ease-out 0s;
+        cursor: pointer;
+        background-color: rgb(50, 108, 249);
+        border: 1px solid rgb(50, 108, 249);
+        border-radius: 2px;
+        color: rgb(255, 255, 255);
+        height: 56px;
+        flex: 0 0 auto;
+        > span {
+            height: 24px;
+            font-size: 14px;
+            line-height: 24px;
+            flex: 0 0 auto;
+            display: block;
+        }
+    }
+    .accout_registerchk_assent_no_btn {
+        margin-top: 24px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 700;
+        vertical-align: middle;
+        transition: all 150ms ease-out 0s;
+        cursor: pointer;
+        background-color: transparent;
+        border: none;
+        color: rgb(34, 34, 34);
+        height: 28px;
+        flex: 0 0 auto;
+        > span {
+            position: relative;
+            flex: 0 0 auto;
+            display: block;
+            height: 20px;
+            font-size: 12px;
+            line-height: 20px;
+        }
+        &:hover {
+            > span {
+                border-bottom: 1px solid rgb(34, 34, 34);
+            }
+        }
+    }
+}
