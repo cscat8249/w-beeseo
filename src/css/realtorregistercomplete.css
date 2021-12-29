@@ -75,6 +75,10 @@
   font-weight: 700;
 }
 
+.account_registercomplete_box_wrap .account_registercomplete_box .account_registercomplete_wrap .info {
+  margin-top: 45px;
+}
+
 .account_registercomplete_box_wrap .account_registercomplete_box .account_registercomplete_wrap .registercomplete_button {
   width: 100%;
   margin-top: 64px;
