@@ -207,3 +207,23 @@
           justify-content: space-between;
   margin-top: 7px;
 }
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .document_file_img_box_wrap > input {
+  height: 48px;
+}
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .document_file_img_box_wrap + input {
+  margin-left: 10px;
+}
+
+.account_registerrealtorinfo_wrap .account_registercertification_box .registercertification_info_businessregistration_wrap .document_file_img_box_wrap .businessregistration_input {
+  padding: 0px 14px;
+  color: #222222;
+  font-size: 14px;
+  border: 1px solid #dddddd;
+  background-color: white;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  width: 0px;
+}

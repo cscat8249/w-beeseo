@@ -37,7 +37,12 @@ button > span {
     position: relative;
 }
 
-
+input {
+    border-radius: 0px;
+    appearance: none;
+    outline: none;
+    user-select: text;
+}
 
 #root {
     width: 100%;
