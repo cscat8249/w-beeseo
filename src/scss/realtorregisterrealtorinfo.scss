@@ -119,6 +119,10 @@
                     margin-top: 20px;
                 }
             }
+            > li.row {
+                flex-direction: row;
+                justify-content: space-between;
+            }
             .businessregistration_title_wrap {
                 flex: 0 0 auto;
                 > h1 {
