@@ -74,6 +74,12 @@
                 margin: 20px 0px 10px;
                 border-top: 1px solid rgb(221, 221, 221);
                 border-bottom: 1px solid rgb(221, 221, 221);
+                li.item {
+                    display: flex;
+                    color: rgb(67, 67, 67);
+                    font-size: 14px;
+                    line-height: 68px;
+                }
             }
         }
     }
