@@ -52,6 +52,18 @@
           align-items: center;
 }
 
+.stor_map_wrap .stor_map_box_wrap .map_box_wrap .map_box .map_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 0%;
+          flex: 1 1 0%;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
 .stor_map_wrap .stor_map_box_wrap .list_box_wrap {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 400px;
