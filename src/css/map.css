@@ -44,7 +44,6 @@
   display: -ms-flexbox;
   display: flex;
   height: 64px;
-  padding: 0px 20px;
   position: relative;
   border-bottom: 1px solid #e7e7e7;
 }
@@ -61,4 +60,5 @@
   font-weight: bold;
   font-size: 18px;
   color: #fff;
+  background: url("/w-beeseo/src/img/button/icon-search.svg") left center/16px 16px no-repeat transparent;
 }

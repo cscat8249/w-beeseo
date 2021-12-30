@@ -24,7 +24,6 @@
             flex: 0 0 auto;
             display: flex;
             height: 64px;
-            padding: 0px 20px;
             position: relative;
             border-bottom: 1px solid rgb(231, 231, 231);
             .stor_map_list_total_text {
@@ -37,7 +36,7 @@
                 font-weight: bold;
                 font-size: 18px;
                 color: #fff;
-                //background: url('/w-beeseo/src/img/button/icon-search.svg') left center / 16px 16px no-repeat transparent;
+                background: url('/w-beeseo/src/img/button/icon-search.svg') left center / 16px 16px no-repeat transparent;
             }
         }
     }
