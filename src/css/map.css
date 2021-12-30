@@ -43,9 +43,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   width: 400px;
   height: 100%;
   padding: 0px 20px;
