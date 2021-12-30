@@ -26,8 +26,10 @@
             height: 64px;
             padding: 0 20px;
             background-color: #fe2c54;
+            flex-direction: row;
             position: relative;
             border-bottom: 1px solid rgb(231, 231, 231);
+            align-items: center;
             .stor_map_list_total_text {
                 flex-grow: 1;
                 padding: 16px 70px 16px 20px;
@@ -37,6 +39,8 @@
                 font-weight: bold;
                 font-size: 18px;
                 color: #fff;
+                flex: 1 1 auto;
+                flex-wrap: wrap;
             }
         }
     }

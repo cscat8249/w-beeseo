@@ -46,8 +46,15 @@
   height: 64px;
   padding: 0 20px;
   background-color: #fe2c54;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   position: relative;
   border-bottom: 1px solid #e7e7e7;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_total_wrap .stor_map_list_total_text {
@@ -61,4 +68,8 @@
   font-weight: bold;
   font-size: 18px;
   color: #fff;
+  -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
