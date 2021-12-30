@@ -28,7 +28,7 @@
             padding: 0px 20px;
             border-right: 1px solid rgb(231, 231, 231);
             position: relative;
-            .stor_map_list_serach_input_wrap {
+            .stor_map_list_total_wrap {
                 align-items: center;
                 background-color: rgb(255, 255, 255);
                 border-bottom-color: rgb(225, 225, 225);
@@ -40,7 +40,7 @@
                 padding-left: 30px;
                 padding-right: 20px;
                 background: url('/w-beeseo/src/img/button/icon-search.svg') left center / 16px 16px no-repeat transparent;
-                .stor_map_list_total_wrap {
+                .stor_map_list_total_text {
                     color: rgb(34, 34, 34);
                     flex: 1 1 auto;
                     flex-wrap: wrap;
