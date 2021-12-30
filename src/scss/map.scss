@@ -51,6 +51,23 @@
                     overflow: hidden;
                     flex: 1 1 0%;
                     max-width: 100%;
+                    .list_cnt_wrap {
+                        align-items: center;
+                        background-color: rgb(255, 255, 255);
+                        border-bottom-color: rgb(225, 225, 225);
+                        border-bottom-width: 1px;
+                        flex-direction: row;
+                        height: 56px;
+                        overflow: visible;
+                        padding-right: 13px;
+                    }
+                    .list_selecter_wrap {
+                        background-color: rgb(238, 238, 238);
+                        flex: 1 1 0%;
+                    }
+                    .lists {
+                        
+                    }
                 }
             }
         }
