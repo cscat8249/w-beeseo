@@ -26,6 +26,7 @@ body {
           flex-grow: 1;
   font-size: 14px;
   font-weight: 400;
+  height: 100%;
 }
 
 button {
