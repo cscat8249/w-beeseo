@@ -24,13 +24,14 @@
             flex: 0 0 auto;
             display: flex;
             height: 64px;
+            padding: 0 20px;
+            background-color: #fe2c54;
             position: relative;
             border-bottom: 1px solid rgb(231, 231, 231);
             .stor_map_list_total_text {
                 flex-grow: 1;
                 padding: 16px 70px 16px 20px;
                 min-height: 59px;
-                background-color: #fe2c54;
                 white-space: nowrap;
                 text-overflow: ellipsis;
                 font-weight: bold;

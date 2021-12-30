@@ -44,6 +44,8 @@
   display: -ms-flexbox;
   display: flex;
   height: 64px;
+  padding: 0 20px;
+  background-color: #fe2c54;
   position: relative;
   border-bottom: 1px solid #e7e7e7;
 }
@@ -54,7 +56,6 @@
           flex-grow: 1;
   padding: 16px 70px 16px 20px;
   min-height: 59px;
-  background-color: #fe2c54;
   white-space: nowrap;
   text-overflow: ellipsis;
   font-weight: bold;
