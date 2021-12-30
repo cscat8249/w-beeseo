@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="root">
-        <div class="content">
+        <div class="content" style="height: 100%;">
             <nav class="header">
                 <div class="logowrap">
                     <a class="logolink" href="/">LOGO</a>
@@ -34,39 +34,26 @@
                     </a>
                 </div>
             </nav>
-            <div mode="relative" class="stor_map_wrap">
+            <div class="stor_map_wrap">
                 <div class="stor_map_box_wrap">
-                    <div class="map_box_wrap">
-                        <div class="map_box">
-                            <div class="map_img" style="flex: 1 1 0%; height: 100%; width: 100%; z-index: -1;">
-                                <div id="map" style=" flex: 1 1 0%; position: relative; overflow: hidden; background: url(https://t1.daumcdn.net/mapjsapi/images/bg_tile.png);"></div>
-                                <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=cc2d88735aad52c775a100fa60d3cbbe"></script>
-                                <script>
-                                  var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-                                    mapOption = { 
-                                        center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
-                                        level: 3 // 지도의 확대 레벨
-                                    };
-                                    var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
-                                    
-                                </script>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="list_box_wrap">
-                        <div class="list_box">
-                            <div class="list_wrap">
-                                <div class="list_cnt_wrap"></div>
-                                <div class="list_selecter_wrap"></div>
-                                <div class="lists"></div>
-                            </div>
-                        </div>
-                    </div>
+                    <div id="map" style="width: 100%; height: 100%;"></div>
+                    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=cc2d88735aad52c775a100fa60d3cbbe"></script>                    <script>
+                        var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+                            mapOption = {
+                                center: new kakao.maps.LatLng(37.56682, 126.97865), // 지도의 중심좌표
+                                level: 3, // 지도의 확대 레벨
+                                mapTypeId : kakao.maps.MapTypeId.ROADMAP // 지도종류
+                            }; 
+                
+                        // 지도를 생성한다 
+                        var map = new kakao.maps.Map(mapContainer, mapOption); 
+                
+                    </script>
+                </div>
+                <div class="stor_map_list_wrap">
+
                 </div>
             </div>
-            
-
             <footer>
                 <div class="fixed">
                     <div class="f_box_wrap">
