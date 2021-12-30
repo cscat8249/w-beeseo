@@ -42,6 +42,9 @@
                     min-width: 0px;
                     padding: 0;
                     position: relative;
+                    .map {
+                        flex: 1 1 0%;
+                    }
                 }
             }
         }
