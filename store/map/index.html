@@ -38,8 +38,8 @@
                 <div class="stor_map_box_wrap">
                     <div class="map_box_wrap">
                         <div class="map_box">
-                            <div class="map_img">
-                                <div id="map"></div>
+                            <div class="map_img" style="flex: 1 1 0%; height: 100%; width: 100%; z-index: -1;">
+                                <div id="map" style=" flex: 1 1 0%; position: relative; overflow: hidden; background: url(https://t1.daumcdn.net/mapjsapi/images/bg_tile.png);"></div>
                                 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=cc2d88735aad52c775a100fa60d3cbbe"></script>
                                 <script>
                                   var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
@@ -47,8 +47,6 @@
                                         center: new kakao.maps.LatLng(33.450701, 126.570667), // 지도의 중심좌표
                                         level: 3 // 지도의 확대 레벨
                                     };
-                                    mapContainer.style.flex = '1 1 0%';
-                                    mapContainer.style.height = '100%';
                                     var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
                                     
                                 </script>
