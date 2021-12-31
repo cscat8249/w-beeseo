@@ -183,3 +183,16 @@
   overflow-y: hidden;
   text-overflow: ellipsis;
 }
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_select_wrap .stor_map_list_select_box .stor_map_list_selects .stor_map_list_select .stor_map_list_select_img_wrap {
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  inset: 0px;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  background-image: url("/w-beeseo/src/img/button/ic_content_filter_arrow_grey1_down_12x12.png");
+}
