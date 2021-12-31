@@ -106,3 +106,22 @@
       -ms-flex-align: stretch;
           align-items: stretch;
 }
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_select_wrap .stor_map_list_select_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: visible;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #2F3C4C;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-height: 44px;
+  position: relative;
+  z-index: 100;
+}
