@@ -45,22 +45,13 @@
             .stor_map_list_unit_change_btn_wrap {
                 margin-left: 13px;
                 .stor_map_list_unit_change_btn {
-                    overflow-x: hidden;
-                    overflow-y: hidden;
                     border-radius: 30px;
                     margin: -13px;
                     padding: 13px;
                     cursor: pointer;
-                    flex-basis: auto;
-                    background-color: rgba(0,0,0,0.00);
-                    align-items: center;
-                    flex-direction: row;
-                    flex-grow: 0;
-                    flex-shrink: 0;
-                    justify-content: center;
                     > img {
-                        width: 45px;
-                        height: 45px;
+                        width: 35px;
+                        height: 35px;
                     }
                 }
             }

@@ -79,33 +79,13 @@
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_total_wrap .stor_map_list_unit_change_btn_wrap .stor_map_list_unit_change_btn {
-  overflow-x: hidden;
-  overflow-y: hidden;
   border-radius: 30px;
   margin: -13px;
   padding: 13px;
   cursor: pointer;
-  -ms-flex-preferred-size: auto;
-      flex-basis: auto;
-  background-color: rgba(0, 0, 0, 0);
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-flex: 0;
-      -ms-flex-positive: 0;
-          flex-grow: 0;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_total_wrap .stor_map_list_unit_change_btn_wrap .stor_map_list_unit_change_btn > img {
-  width: 45px;
-  height: 45px;
+  width: 35px;
+  height: 35px;
 }
