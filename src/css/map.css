@@ -105,6 +105,7 @@
   -webkit-box-align: stretch;
       -ms-flex-align: stretch;
           align-items: stretch;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_select_wrap .stor_map_list_select_box {
