@@ -128,5 +128,27 @@
                 }
             }
         }
+        .stor_map_list_box {
+            display: flex;
+            flex-shrink: 1;
+            flex-grow: 1;
+            flex-direction: column;
+            flex-basis: auto;
+            transform: translateZ(0px);
+            overflow-y: auto;
+            overflow-x: hidden;
+            .item {
+                .stor_map_area_text_wrap {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    flex-basis: auto;
+                    padding: 0 18px;
+                    min-height: 44px;
+                    background-color: rgb(255, 255, 255);
+                    align-items: center;
+                }
+            }
+        }
     }
 }
