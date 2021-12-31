@@ -170,3 +170,16 @@
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_select_wrap .stor_map_list_select_box .stor_map_list_selects .stor_map_list_select .stor_map_list_select_text {
+  display: inline;
+  word-wrap: break-word;
+  color: #222222;
+  font-size: 13px;
+  line-height: 17px;
+  white-space: nowrap;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+}

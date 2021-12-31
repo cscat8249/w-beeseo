@@ -96,6 +96,18 @@
                         max-width: 220px;
                         padding-left: 10px;
                         padding-right: 10px;
+                        .stor_map_list_select_text {
+                            display: inline;
+                            word-wrap: break-word;
+                            color: rgb(34, 34, 34);
+                            font-size: 13px;
+                            line-height: 17px;
+                            white-space: nowrap;
+                            max-width: 100%;
+                            overflow-x: hidden;
+                            overflow-y: hidden;
+                            text-overflow: ellipsis;
+                        }
                     }
                 }
             }
