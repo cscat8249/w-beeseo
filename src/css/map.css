@@ -147,3 +147,26 @@
           align-items: center;
   overflow: visible;
 }
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_select_wrap .stor_map_list_select_box .stor_map_list_selects .stor_map_list_select {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f6f6f6;
+  border-color: #f6f6f6;
+  border-width: 1px;
+  cursor: pointer;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 7px;
+  max-width: 220px;
+  padding-left: 10px;
+  padding-right: 10px;
+}

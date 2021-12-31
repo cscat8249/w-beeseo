@@ -82,6 +82,21 @@
                     min-height: 44px;
                     align-items: center;
                     overflow: visible;
+                    .stor_map_list_select {
+                        display: flex;
+                        align-items: center;
+                        background-color: rgb(246, 246, 246);
+                        border-color: rgb(246, 246, 246);
+                        border-width: 1px;
+                        cursor: pointer;
+                        flex-direction: row;
+                        height: 30px;
+                        margin-right: 10px;
+                        margin-top: 7px;
+                        max-width: 220px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+                    }
                 }
             }
         }
