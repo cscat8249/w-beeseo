@@ -36,6 +36,15 @@
                 padding-left: 30px;
                 padding-right: 20px;
                 background: url('/w-beeseo/src/img/button/icon-search.svg') left center / 16px 16px no-repeat transparent;
+                .stor_map_list_search_input {
+                    width: 100%;
+                    height: 36px;
+                    padding: 0px;
+                    color: rgb(34, 34, 34);
+                    font-size: 15px;
+                    border: 0px;
+                    background-color: transparent;
+                }
             }
         }
     }
