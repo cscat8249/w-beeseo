@@ -55,57 +55,57 @@
                     }
                 }
             }
-            .stor_map_select_botton_wrap {
+        }
+        .stor_map_select_botton_wrap {
+            display: flex;
+            align-items: center;
+            height: 56px;
+            padding: 3px 4px 0px;
+            border-bottom: 1px solid rgb(231, 231, 231);
+
+            .stor_map_select_botton_box {
+                flex: 0 0 auto;
                 display: flex;
                 align-items: center;
-                height: 56px;
-                padding: 3px 4px 0px;
-                border-bottom: 1px solid rgb(231, 231, 231);
-
-                .stor_map_select_botton_box {
-                    flex: 0 0 auto;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+                justify-content: center;
+                height: 100%;
+                position: relative;
+                top: 1px;
+                + .stor_map_select_botton_box {
+                    &::before {
+                        content: "";
+                        display: block;
+                        width: 1px;
+                        height: 16px;
+                        background-color: rgb(223, 223, 223);
+                    }
+                }
+                .button_active {
                     height: 100%;
-                    position: relative;
-                    top: 1px;
-                    + .stor_map_select_botton_box {
-                        &::before {
-                            content: "";
-                            display: block;
-                            width: 1px;
-                            height: 16px;
-                            background-color: rgb(223, 223, 223);
-                        }
-                    }
-                    .button_active {
-                        height: 100%;
-                        margin: 0px 14px;
-                        color: rgb(34, 34, 34);
-                        font-size: 14px;
-                        font-weight: 700;
-                        border-width: 0px 0px 2px;
-                        border-top-style: initial;
-                        border-right-style: initial;
-                        border-left-style: initial;
-                        border-top-color: initial;
-                        border-right-color: initial;
-                        border-left-color: initial;
-                        border-image: initial;
-                        border-bottom-style: solid;
-                        border-bottom-color: rgb(34, 34, 34);
-                        background-color: transparent;
-                    }
-                    .botton_none {
-                        height: 100%;
-                        margin: 0px 14px;
-                        color: rgb(174, 174, 174);
-                        font-size: 14px;
-                        font-weight: 700;
-                        border: 0px;
-                        background-color: transparent;
-                    }
+                    margin: 0px 14px;
+                    color: rgb(34, 34, 34);
+                    font-size: 14px;
+                    font-weight: 700;
+                    border-width: 0px 0px 2px;
+                    border-top-style: initial;
+                    border-right-style: initial;
+                    border-left-style: initial;
+                    border-top-color: initial;
+                    border-right-color: initial;
+                    border-left-color: initial;
+                    border-image: initial;
+                    border-bottom-style: solid;
+                    border-bottom-color: rgb(34, 34, 34);
+                    background-color: transparent;
+                }
+                .botton_none {
+                    height: 100%;
+                    margin: 0px 14px;
+                    color: rgb(174, 174, 174);
+                    font-size: 14px;
+                    font-weight: 700;
+                    border: 0px;
+                    background-color: transparent;
                 }
             }
         }
