@@ -466,11 +466,90 @@
   overflow: hidden;
 }
 
-.stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .list_item_nubmer_nav {
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .list_item_page_nav_wrap {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
   width: 100%;
   padding: 50px 0px 80px;
   margin-top: auto;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .list_item_page_nav_wrap .list_item_page_nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .list_item_page_nav_wrap .list_item_page_nav .btn_prev, .stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .list_item_page_nav_wrap .list_item_page_nav .btn_next {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: transparent;
+  margin-right: 19px;
+  padding-right: 1px;
+  border: 1px solid #aeaeae;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .list_item_page_nav_wrap .list_item_page_nav .btn_prev > svg > path, .stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .list_item_page_nav_wrap .list_item_page_nav .btn_next > svg > path {
+  fill: #aeaeae;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .list_item_page_nav_wrap .list_item_page_nav .page_nave_active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0px 4px;
+  color: white;
+  font-size: 15px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #326cf9;
+  background-color: #326cf9;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .list_item_page_nav_wrap .list_item_page_nav .page_nave {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0px 4px;
+  color: #326cf9;
+  font-size: 15px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #326cf9;
+  background-color: white;
 }

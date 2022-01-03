@@ -307,11 +307,63 @@
                                             }
                                         }
                                     }
-                                    .list_item_nubmer_nav {
+                                    .list_item_page_nav_wrap {
                                         flex: 0 0 auto;
                                         width: 100%;
                                         padding: 50px 0px 80px;
                                         margin-top: auto;
+                                        .list_item_page_nav {
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            .btn_prev, .btn_next {
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                width: 32px;
+                                                height: 32px;
+                                                border-radius: 50%;
+                                                background-color: transparent;
+                                                margin-right: 19px;
+                                                padding-right: 1px;
+                                                border: 1px solid rgb(174, 174, 174);
+                                                > svg {
+                                                    > path {
+                                                        fill: rgb(174, 174, 174);
+                                                    }
+                                                }
+                                            }
+                                            .page_nave_active {
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                width: 32px;
+                                                height: 32px;
+                                                border-radius: 50%;
+                                                margin: 0px 4px;
+                                                color: rgb(255, 255, 255);
+                                                font-size: 15px;
+                                                border-width: 0px;
+                                                border-style: solid;
+                                                border-color: rgb(50, 108, 249);
+                                                background-color: rgb(50, 108, 249);
+                                            }
+                                            .page_nave {
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+                                                width: 32px;
+                                                height: 32px;
+                                                border-radius: 50%;
+                                                margin: 0px 4px;
+                                                color: rgb(50, 108, 249);
+                                                font-size: 15px;
+                                                border-width: 0px;
+                                                border-style: solid;
+                                                border-color: rgb(50, 108, 249);
+                                                background-color: rgb(255, 255, 255);
+                                            }
+                                        }
                                     }
                                 }
                             }
