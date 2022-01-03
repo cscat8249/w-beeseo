@@ -147,6 +147,17 @@
                     min-height: 44px;
                     background-color: rgb(255, 255, 255);
                     align-items: center;
+                    .stor_map_area_text {
+                        color: rgb(34, 34, 34);
+                        font-size: 16px;
+                        line-height: 21px;
+                        margin-right: 3px;
+                        max-height: 63px;
+                        overflow: hidden;
+                        max-width: 100%;
+                        text-overflow: ellipsis;
+                        font-size: 14px;
+                    }
                 }
             }
         }

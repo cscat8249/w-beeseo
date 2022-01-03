@@ -249,3 +249,15 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_box .item .stor_map_area_text_wrap .stor_map_area_text {
+  color: #222222;
+  font-size: 16px;
+  line-height: 21px;
+  margin-right: 3px;
+  max-height: 63px;
+  overflow: hidden;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  font-size: 14px;
+}
