@@ -53,6 +53,14 @@
                         background-color: transparent;
                     }
                 }
+                .stor_map_list_filter_wrap {
+                    flex: 0 0 auto;
+                    display: flex;
+                    align-items: center;
+                    height: 100%;
+                    margin-left: auto;
+                    margin-right: 15px;
+                }
             }
         }
         .stor_map_select_botton_wrap {
