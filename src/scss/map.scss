@@ -229,6 +229,9 @@
                                                 padding: 16px 15px;
                                                 background-color: rgb(255, 255, 255);
                                                 user-select: none;
+                                                &:hover {
+                                                    background-color: rgb(240, 244, 250);
+                                                }
                                                 .img_wrap {
                                                     flex: 0 0 auto;
                                                     width: 140px;
