@@ -208,6 +208,53 @@
                                 .list_item {
                                     flex-grow: 1;
                                     width: 100%;
+                                    .item_wrap {
+                                        display: flex;
+                                        border-bottom: 1px solid rgb(231, 231, 231);
+                                        cursor: pointer;
+                                        .item_box {
+                                            flex-grow: 1;
+                                            display: flex;
+                                            align-items: flex-start;
+                                            padding: 16px 15px;
+                                            background-color: rgb(255, 255, 255);
+                                            user-select: none;
+                                            .img_wrap {
+                                                flex: 0 0 auto;
+                                                width: 140px;
+                                                height: 140px;
+                                                min-height: 140px;
+                                                position: relative;
+                                                .img_box {
+                                                    flex: 0 0 auto;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    border-radius: 2px;
+                                                    background-color: rgb(250, 250, 250);
+                                                    background-size: 60px 60px;
+                                                    user-select: none;
+                                                    position: relative;
+                                                    overflow: hidden;
+                                                    .itme_img {
+                                                        width: 100%;
+                                                        height: 100%;
+                                                        object-fit: cover;
+                                                    }
+                                                }
+                                            }
+                                            .item_text {
+                                                flex-grow: 1;
+                                                display: flex;
+                                                flex-direction: column;
+                                                width: 0px;
+                                                height: 100%;
+                                                padding-left: 20px;
+                                            }
+                                        }
+                                    }
                                 }
                                 .list_item_nubmer_nav {
                                     flex: 0 0 auto;
