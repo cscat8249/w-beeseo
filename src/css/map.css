@@ -73,3 +73,15 @@
   border: 0px;
   background-color: transparent;
 }
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_search_wrap .stor_map_select_botton_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 56px;
+  padding: 3px 4px 0px;
+  border-bottom: 1px solid #e7e7e7;
+}
