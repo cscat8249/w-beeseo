@@ -236,3 +236,79 @@
   width: 100%;
   height: calc(100% - 56px);
 }
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  height: 100%;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper {
+  overflow: hidden;
+  width: inherit;
+  height: inherit;
+  max-width: inherit;
+  max-height: inherit;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  direction: inherit;
+  overflow: hidden;
+  width: auto !important;
+  height: auto !important;
+  z-index: 0;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset {
+  right: 0px;
+  bottom: 0px;
+  direction: inherit !important;
+  -webkit-box-sizing: inherit !important;
+          box-sizing: inherit !important;
+  resize: none !important;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  left: 0;
+  top: 0;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content {
+  padding: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content::before, .stor_map_wrap .stor_map_list_wrap .stor_map_list_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content::after {
+  content: " ";
+  display: table;
+}
