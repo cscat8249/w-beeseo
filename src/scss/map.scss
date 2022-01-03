@@ -114,6 +114,13 @@
                         height: 16px;
                         background-color: rgb(223, 223, 223);
                     }
+                    &::after {
+                        content: "";
+                        display: block;
+                        width: 1px;
+                        height: 16px;
+                        background-color: rgb(223, 223, 223);
+                    }
                 }
                 .button_active {
                     height: 100%;

@@ -184,6 +184,14 @@
   background-color: #dfdfdf;
 }
 
+.stor_map_wrap .stor_map_list_wrap .stor_map_select_botton_wrap .stor_map_select_botton_box + .stor_map_select_botton_box::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 16px;
+  background-color: #dfdfdf;
+}
+
 .stor_map_wrap .stor_map_list_wrap .stor_map_select_botton_wrap .stor_map_select_botton_box .button_active {
   height: 100%;
   margin: 0px 14px;
