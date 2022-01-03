@@ -20,123 +20,23 @@
         border-left: 1px solid rgb(231, 231, 231);
         position: relative;
         overflow: hidden;
-        .stor_map_list_total_wrap {
+        .stor_map_list_search_wrap {
             flex: 0 0 auto;
             display: flex;
-            height: 64px;
-            padding: 0 20px;
-            background-color: #2F3C4C;
-            flex-direction: row;
-            position: relative;
-            border-bottom: 1px solid rgb(231, 231, 231);
             align-items: center;
-            .stor_map_list_total_text {
-                flex-grow: 1;
-                padding: 16px 70px 16px 20px;
-                min-height: 59px;
-                white-space: nowrap;
-                text-overflow: ellipsis;
-                font-weight: bold;
-                font-size: 18px;
-                color: #fff;
-                flex: 1 1 auto;
-                flex-wrap: wrap;
-            }
-            .stor_map_list_unit_change_btn_wrap {
-                margin-left: 13px;
-                .stor_map_list_unit_change_btn {
-                    border-radius: 30px;
-                    margin: -13px;
-                    padding: 13px;
-                    cursor: pointer;
-                    > img {
-                        width: 35px;
-                        height: 35px;
-                    }
-                }
-            }
-        }
-        .stor_map_list_select_wrap {
-            background-color: rgb(238, 238, 238);
-            flex: 1 1 0%;
-            display: flex;
-            flex-direction: column;
-            align-items: stretch;
-            border-bottom: 2px solid rgb(231, 231, 231);
-            .stor_map_list_select_box {
-                display: flex;
-                overflow: visible;
-                width: 100%;
-                align-items: center;
-                background-color: #2F3C4C;
-                flex-direction: row;
-                min-height: 44px;
-                position: relative;
-                z-index: 100;
-                .stor_map_list_selects {
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: row;
-                    flex: 1 1 0%;
-                    padding-left: 12px;
-                    padding-bottom: 7px;
-                    min-height: 44px;
-                    align-items: center;
-                    overflow: visible;
-                    .stor_map_list_select {
-                        display: flex;
-                        align-items: center;
-                        background-color: rgb(246, 246, 246);
-                        border-color: rgb(246, 246, 246);
-                        border-width: 1px;
-                        cursor: pointer;
-                        flex-direction: row;
-                        height: 30px;
-                        margin-right: 10px;
-                        margin-top: 7px;
-                        max-width: 220px;
-                        padding-left: 10px;
-                        padding-right: 10px;
-                        .stor_map_list_select_text {
-                            display: inline;
-                            word-wrap: break-word;
-                            color: rgb(34, 34, 34);
-                            font-size: 13px;
-                            line-height: 17px;
-                            white-space: nowrap;
-                            max-width: 100%;
-                            overflow-x: hidden;
-                            overflow-y: hidden;
-                            text-overflow: ellipsis;
-                        }
-                        .stor_map_list_select_img_wrap {
-                            display: flex;
-                            flex-direction: column;
-                            align-items: stretch;
-                            flex-basis: auto;
-                            height: 12px;
-                            margin-left: 2px;
-                            overflow: hidden;
-                            width: 12px;
-                            z-index: 0;
-                            > img {
-                                width: 12px;
-                                height: 12px;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        .stor_map_list_box {
-            flex: 0 0 auto;
-            display: flex;
-            flex-direction: column;
             width: 400px;
             height: 100%;
+            padding: 0px 20px;
             border-right: 1px solid rgb(231, 231, 231);
             position: relative;
-            overflow: hidden;
+            .stor_map_list_search_form {
+                flex-grow: 1;
+                width: 0px;
+                height: 36px;
+                padding-left: 30px;
+                padding-right: 20px;
+                background: url('/w-beeseo/src/img/button/icon-seach.svg') left center / 16px 16px no-repeat transparent;
+            }
         }
     }
 }
