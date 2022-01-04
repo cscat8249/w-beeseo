@@ -154,6 +154,7 @@
       -ms-flex: 2 1 0%;
           flex: 2 1 0%;
   padding-bottom: 0px;
+  cursor: pointer;
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .stor_map_list_view_tell_wrap .stor_map_list_view_phon_wrap .stor_map_list_view_phon_btn {
