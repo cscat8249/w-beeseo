@@ -121,6 +121,9 @@
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .stor_map_list_view_tell_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   position: absolute;
   left: 0px;
   right: 0px;
