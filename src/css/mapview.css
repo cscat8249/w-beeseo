@@ -120,10 +120,7 @@
   height: calc(100% - 56px);
 }
 
-.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .stor_map_list_view_tell_wrap {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_tell_wrap {
   position: absolute;
   left: 0px;
   right: 0px;
@@ -135,7 +132,7 @@
           box-shadow: black 0px -10px 13px -3px, black 0px -6px 31px 3px, black 0px -4px 39px 7px;
 }
 
-.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .stor_map_list_view_tell_wrap .stor_map_list_view_box {
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_tell_wrap .stor_map_list_view_box {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
