@@ -196,13 +196,14 @@
                                             .item_view_price_box {
                                                 display: flex;
                                                 background-color: rgb(255, 255, 255);
-                                                flex-direction: row;
+                                                flex-direction: column;
                                                 padding: 0 18px;
                                                 padding-top: 12px;
                                                 padding-bottom: 15px;
                                                 flex: 1 1 0%;
                                                 overflow: visible;
                                                 .item_view_price_big {
+                                                    display: flex;
                                                     h1 {
                                                         color: rgb(34, 34, 34);
                                                         flex-shrink: 1;
