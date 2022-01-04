@@ -215,7 +215,7 @@
           transform: translateX(0px) translateY(0px);
 }
 
-.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_img_wrap img {
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_img_wrap .item_view_img_icon_wrap img {
   inset: 0px;
   height: 100%;
   position: absolute;
