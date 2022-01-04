@@ -202,9 +202,22 @@
                                                 padding-bottom: 15px;
                                                 flex: 1 1 0%;
                                                 overflow: visible;
-                                                h1 {
-
+                                                .item_view_price_big {
+                                                    h1 {
+                                                        color: rgb(34, 34, 34);
+                                                        flex-shrink: 1;
+                                                        flex-wrap: wrap;
+                                                        font-size: 23px;
+                                                        font-weight: bold;
+                                                    }
+                                                    p {
+                                                        color: rgb(117, 117, 117);
+                                                        font-size: 14px;
+                                                        line-height: 18px;
+                                                        white-space: inherit;
+                                                    }
                                                 }
+                                                
                                             }
                                         }
                                     }
