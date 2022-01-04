@@ -147,6 +147,43 @@
                                                 }    
                                             }
                                         }
+                                        .item_view_img_cnt_wrap {
+                                            position: absolute;
+                                            inset: 0px;
+                                            align-items: center;
+                                            .item_view_img_cnt_box {
+                                                display: flex;
+                                                flex-direction: row;
+                                                position: absolute;
+                                                bottom: 10px;
+                                                flex-direction: row;
+                                                right: 25px;
+                                                height: 24px;
+                                                padding: 0 5px;
+                                                border-radius: 4px;
+                                                background-color: rgba(0, 0, 0, 0.3);
+                                                .item_view_img_icon_wrap {
+                                                    width: 18px;
+                                                    height: 17.5px;
+                                                    margin-right: 4px;
+                                                    margin-top: 3px;
+                                                    img {
+                                                        height: 100%;
+                                                        width: 100%;
+                                                    }
+                                                }
+                                                .item_view_img_cnt_text_box {
+                                                    line-height: 24px;
+                                                    font-size: 11px;
+                                                    text-align: center;
+                                                    color: rgb(254, 254, 254);
+                                                    .item_view_img_cnt_text {
+                                                        color: inherit;
+                                                        font-weight: 700;
+                                                    }
+                                                }
+                                            }
+                                        }
                                     }
                                 }
                             }
