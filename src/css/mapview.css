@@ -82,3 +82,8 @@
   border-radius: 2px;
   background-color: white;
 }
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_back_wrap .stor_map_list_view_back_btn_wrap .stor_item_back_btn > img {
+  width: 30px;
+  height: 30px;
+}
