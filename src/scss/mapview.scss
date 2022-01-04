@@ -86,6 +86,16 @@
                 .stor_map_list_view_phon_wrap {
                     flex: 2 1 0%;
                     padding-bottom: 0px;
+                    .stor_map_list_view_phon_btn {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 36px;
+                        height: 36px;
+                        border: 0px solid rgb(223, 223, 223);
+                        border-radius: 2px;
+                        background-color: rgb(255, 255, 255);
+                    }
                 }
                 .stor_map_list_view_message_wrap {
                     flex: 8 1 0%;
