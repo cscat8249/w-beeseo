@@ -232,16 +232,19 @@
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_img_wrap .item_view_img_cnt_wrap .item_view_img_cnt_box {
-  position: absolute;
-  bottom: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  position: absolute;
+  bottom: 10px;
+  flex-direction: row;
   right: 13px;
   height: 24px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding: 0 5px;
   border-radius: 4px;
   background-color: rgba(0, 0, 0, 0.3);
 }

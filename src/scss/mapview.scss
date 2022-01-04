@@ -148,13 +148,14 @@
                                             inset: 0px;
                                             align-items: center;
                                             .item_view_img_cnt_box {
+                                                display: flex;
+                                                flex-direction: row;
                                                 position: absolute;
                                                 bottom: 10px;
                                                 flex-direction: row;
                                                 right: 13px;
                                                 height: 24px;
-                                                padding-left: 5px;
-                                                padding-right: 5px;
+                                                padding: 0 5px;
                                                 border-radius: 4px;
                                                 background-color: rgba(0, 0, 0, 0.3);
                                                 .item_view_img_icon_wrap {
