@@ -223,6 +223,17 @@
                                                     align-items: flex-start;
                                                     flex-direction: row;
                                                     overflow: visible;
+                                                    .entitlement {
+                                                        padding-top: 1px;
+                                                        flex-wrap: wrap;
+                                                        flex-direction: row;
+                                                        align-items: center;
+                                                        flex: 1 1 0%;
+                                                    }
+                                                    .regnum {
+                                                        margin-left: 10px;
+                                                        flex: 1 1 0%;
+                                                    }
                                                 }
                                             }
                                         }
