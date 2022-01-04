@@ -128,7 +128,14 @@
                                         content: " ";
                                         display: table;
                                     }
-                                    
+                                    .item_view_img_box_wrap {
+                                        display: flex;
+                                        height: 0px;
+                                        padding-bottom: 75%;
+                                        flex-direction: column;
+                                        position: relative;
+                                        z-index: 0;
+                                    }
                                 }
                             }
                         }

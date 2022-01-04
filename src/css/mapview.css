@@ -206,6 +206,20 @@
   display: table;
 }
 
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_img_box_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 0px;
+  padding-bottom: 75%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: relative;
+  z-index: 0;
+}
+
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_tell_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
