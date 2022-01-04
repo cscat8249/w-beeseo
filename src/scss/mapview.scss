@@ -52,6 +52,16 @@
                 }
                 .stor_item_address_text_wrap {
                     margin-left: 14px;
+                    .address_text {
+                        color: rgb(34, 34, 34);
+                        flex: 1 1 auto;
+                        flex-wrap: wrap;
+                        font-size: 18px;
+                        font-weight: normal;
+                        line-height: 23px;
+                        margin-left: 13px;
+                        white-space: nowrap;
+                    }
                 }
             }
         }

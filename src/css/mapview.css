@@ -91,3 +91,17 @@
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_back_wrap .stor_map_list_view_back_btn_wrap .stor_item_address_text_wrap {
   margin-left: 14px;
 }
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_back_wrap .stor_map_list_view_back_btn_wrap .stor_item_address_text_wrap .address_text {
+  color: #222222;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 23px;
+  margin-left: 13px;
+  white-space: nowrap;
+}
