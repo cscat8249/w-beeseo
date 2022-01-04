@@ -134,14 +134,12 @@
                                         left: 0px;
                                         position: absolute;
                                         transform: translateX(0px) translateY(0px);
-                                        .item_view_img_box {
-                                            img {
-                                                inset: 0px;
-                                                height: 100%;
-                                                position: absolute;
-                                                width: 100%;
-                                                z-index: -1;
-                                            }
+                                        img {
+                                            inset: 0px;
+                                            height: 100%;
+                                            position: absolute;
+                                            width: 100%;
+                                            z-index: -1;
                                         }
                                         .item_view_img_cnt_wrap {
                                             position: absolute;
@@ -157,6 +155,22 @@
                                                 padding-right: 5px;
                                                 border-radius: 4px;
                                                 background-color: rgba(0, 0, 0, 0.3);
+                                                .item_view_img_icon_wrap {
+                                                    width: 18px;
+                                                    height: 17.5px;
+                                                    margin-right: 4px;
+                                                    margin-top: 3px;
+                                                }
+                                            }
+                                            .item_view_img_cnt_text_box {
+                                                line-height: 24px;
+                                                font-size: 11px;
+                                                text-align: center;
+                                                color: rgb(254, 254, 254);
+                                                .item_view_img_cnt_text {
+                                                    color: inherit;
+                                                    font-weight: 700;
+                                                }
                                             }
                                         }
                                     }
