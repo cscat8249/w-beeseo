@@ -87,3 +87,7 @@
   width: 30px;
   height: 30px;
 }
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_back_wrap .stor_map_list_view_back_btn_wrap .stor_item_address_text_wrap {
+  margin-left: 14px;
+}
