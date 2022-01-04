@@ -134,14 +134,33 @@
                                         left: 0px;
                                         position: absolute;
                                         transform: translateX(0px) translateY(0px);
-                                        img {
-                                            inset: 0px;
-                                            height: 100%;
+                                        .item_view_img_box {
+                                            img {
+                                                inset: 0px;
+                                                height: 100%;
+                                                position: absolute;
+                                                width: 100%;
+                                                z-index: -1;
+                                            }
+                                        }
+                                        .item_view_img_cnt_wrap {
                                             position: absolute;
-                                            width: 100%;
-                                            z-index: -1;
+                                            inset: 0px;
+                                            align-items: center;
+                                            .item_view_img_cnt_box {
+                                                position: absolute;
+                                                bottom: 10px;
+                                                flex-direction: row;
+                                                right: 13px;
+                                                height: 24px;
+                                                padding-left: 5px;
+                                                padding-right: 5px;
+                                                border-radius: 4px;
+                                                background-color: rgba(0, 0, 0, 0.3);
+                                            }
                                         }
                                     }
+                                    
                                 }
                             }
                         }
