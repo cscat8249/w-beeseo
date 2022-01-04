@@ -182,13 +182,12 @@
   -webkit-box-flex: 8;
       -ms-flex: 8 1 0%;
           flex: 8 1 0%;
-  padding-bottom: 0px;
+  padding: 0 10px;
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .stor_map_list_view_tell_wrap .stor_map_list_view_message_wrap .stor_map_list_view_message_btn {
   width: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
+  height: 36px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
