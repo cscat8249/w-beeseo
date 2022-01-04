@@ -229,10 +229,25 @@
                                                         flex-direction: row;
                                                         align-items: center;
                                                         flex: 1 1 0%;
+                                                        p {
+                                                            color: rgb(117, 117, 117);
+                                                            flex-shrink: 1;
+                                                            flex-wrap: wrap;
+                                                            font-size: 14px;
+                                                            line-height: 18px;
+                                                        }
                                                     }
                                                     .regnum {
                                                         margin-left: 10px;
                                                         flex: 1 1 0%;
+                                                        p {
+                                                            color: rgb(117, 117, 117);
+                                                            flex-shrink: 1;
+                                                            flex-wrap: wrap;
+                                                            font-size: 14px;
+                                                            line-height: 18px;
+                                                            text-align: right;
+                                                        }
                                                     }
                                                 }
                                             }
