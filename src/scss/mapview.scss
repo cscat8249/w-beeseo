@@ -128,6 +128,13 @@
                                         content: " ";
                                         display: table;
                                     }
+                                    .item_view_img_wrap {
+                                        width: 100%;
+                                        height: 296px;
+                                        left: 0px;
+                                        position: absolute;
+                                        transform: translateX(0px) translateY(0px);
+                                    }
                                 }
                             }
                         }
