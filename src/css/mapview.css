@@ -191,8 +191,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fa950b;
+  background-color: #2F3C4C;
   border-radius: 7px;
   border: 0px solid #dfdfdf;
   cursor: pointer;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .stor_map_list_view_tell_wrap .stor_map_list_view_message_wrap .stor_map_list_view_message_btn > span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
 }
