@@ -193,5 +193,6 @@
           align-items: center;
   background-color: #fa950b;
   border-radius: 7px;
+  border: 0px solid #dfdfdf;
   cursor: pointer;
 }
