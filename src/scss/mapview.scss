@@ -162,7 +162,13 @@
                                                     height: 17.5px;
                                                     margin-right: 4px;
                                                     margin-top: 3px;
-
+                                                    img {
+                                                        inset: 0px;
+                                                        height: 100%;
+                                                        position: absolute;
+                                                        width: 100%;
+                                                        z-index: -1;
+                                                    }
                                                 }
                                             }
                                             .item_view_img_cnt_text_box {
@@ -173,6 +179,7 @@
                                                 .item_view_img_cnt_text {
                                                     color: inherit;
                                                     font-weight: 700;
+                                                    
                                                 }
                                             }
                                         }
