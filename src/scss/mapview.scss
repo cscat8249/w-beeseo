@@ -29,23 +29,22 @@
             background-color: rgb(255, 255, 255);
             z-index: 900;
             .stor_map_list_view_back_btn_wrap {
+                flex: 0 0 auto;
                 display: flex;
-                flex-direction: column;
-                margin-left: 13px;
-                .item_back_btn {
-                    justify-content: center;
-                    flex-shrink: 0;
-                    flex-grow: 0;
-                    flex-direction: row;
+                align-items: center;
+                width: 300px;
+                height: 100%;
+                padding: 0px 20px;
+                position: relative;
+                .stor_item_back_btn {
+                    display: flex;
                     align-items: center;
-                    flex-basis: auto;
-                    cursor: pointer;
-                    background-color: rgba(0,0,0,0.00);
-                    padding: 13px;
-                    margin: -13px;
-                    border-radius: 30px;
-                    overflow-x: hidden;
-                    overflow-y: hidden;
+                    justify-content: center;
+                    width: 36px;
+                    height: 36px;
+                    border: 1px solid rgb(223, 223, 223);
+                    border-radius: 2px;
+                    background-color: rgb(255, 255, 255);
                 }
             }
         }
