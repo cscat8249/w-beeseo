@@ -138,3 +138,17 @@
           box-shadow: black 0px 0px 13px 0px;
   pointer-events: none !important;
 }
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .stor_map_list_view_tell_wrap .stor_map_list_view_phon_wrap {
+  -webkit-box-flex: 2;
+      -ms-flex: 2 1 0%;
+          flex: 2 1 0%;
+  padding-bottom: 0px;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .stor_map_list_view_tell_wrap .stor_map_list_view_message_wrap {
+  -webkit-box-flex: 8;
+      -ms-flex: 8 1 0%;
+          flex: 8 1 0%;
+  padding-bottom: 0px;
+}
