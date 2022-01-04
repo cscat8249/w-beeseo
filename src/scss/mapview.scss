@@ -70,6 +70,17 @@
             flex-direction: column;
             width: 100%;
             height: calc(100% - 56px);
+            .stor_map_list_view_tell_wrap {
+                display: flex;
+                bottom: 0px;
+                flex-direction: row;
+                height: 106px;
+                justify-content: flex-end;
+                left: 0px;
+                position: absolute;
+                right: 0px;
+                pointer-events: none !important;
+            }
         }
     }
 }
