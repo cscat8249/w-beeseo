@@ -70,6 +70,14 @@
             flex-direction: column;
             width: 100%;
             height: calc(100% - 56px);
+            .stor_map_list_view_phon_wrap {
+                position: absolute;
+                left: 0px;
+                right: 0px;
+                background-color: rgb(255, 255, 255);
+                justify-content: flex-end;
+                box-shadow: rgb(0,0,0 / 10%) 0px -10px 13px -3px, rgb(0,0,0 / 4%) 0px -6px 31px 3px, rgb(0,0,0 / 2%) 0px -4px 39px 7px;
+            }
         }
     }
 }
