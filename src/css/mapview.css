@@ -220,6 +220,18 @@
   z-index: 0;
 }
 
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_img_box_wrap .item_view_img_wrap {
+  position: absolute;
+  width: 394px;
+  height: 296px;
+  left: 0px;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_img_box_wrap .item_view_img_wrap .item_view_img_box img {
+  height: 100%;
+  width: 100%;
+}
+
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_tell_wrap {
   display: -webkit-box;
   display: -ms-flexbox;

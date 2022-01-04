@@ -135,6 +135,18 @@
                                         flex-direction: column;
                                         position: relative;
                                         z-index: 0;
+                                        .item_view_img_wrap {
+                                            position: absolute;
+                                            width: 394px;
+                                            height: 296px;
+                                            left: 0px;
+                                            .item_view_img_box {
+                                                img {
+                                                    height: 100%;
+                                                    width: 100%;
+                                                }    
+                                            }
+                                        }
                                     }
                                 }
                             }
