@@ -125,16 +125,14 @@
   display: -ms-flexbox;
   display: flex;
   bottom: 0px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  height: 106px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  background-color: white;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;
-  left: 0px;
-  position: absolute;
-  right: 0px;
+  -webkit-box-shadow: black 0px -10px 13px -3px, black 0px -6px 31px 3px, black 0px -4px 39px 7px;
+          box-shadow: black 0px -10px 13px -3px, black 0px -6px 31px 3px, black 0px -4px 39px 7px;
   pointer-events: none !important;
 }
