@@ -337,6 +337,12 @@
   white-space: inherit;
 }
 
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_title_wrap .item_view_title_box .item_view_price_box .item_view_price_small {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_tell_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
