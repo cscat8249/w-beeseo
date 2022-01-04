@@ -204,10 +204,10 @@
                                                 overflow: visible;
                                                 .item_view_price_big {
                                                     display: flex;
+                                                    line-height: 30px;
                                                     h1 {
                                                         color: rgb(34, 34, 34);
                                                         flex-shrink: 1;
-                                                        flex-wrap: wrap;
                                                         font-size: 23px;
                                                         font-weight: bold;
                                                     }

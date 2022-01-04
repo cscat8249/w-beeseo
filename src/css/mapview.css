@@ -319,14 +319,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  line-height: 30px;
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_title_wrap .item_view_title_box .item_view_price_box .item_view_price_big h1 {
   color: #222222;
   -ms-flex-negative: 1;
       flex-shrink: 1;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   font-size: 23px;
   font-weight: bold;
 }
