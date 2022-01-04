@@ -28,6 +28,11 @@
             border-bottom: 1px solid rgb(205, 205, 205);
             background-color: rgb(255, 255, 255);
             z-index: 900;
+            .stor_map_list_view_back_btn_wrap {
+                display: flex;
+                flex-direction: column;
+                margin-left: 13px;
+            }
         }
     }
 }

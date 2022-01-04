@@ -49,3 +49,14 @@
   background-color: white;
   z-index: 900;
 }
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_back_wrap .stor_map_list_view_back_btn_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 13px;
+}
