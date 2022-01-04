@@ -61,7 +61,7 @@
   margin-left: 13px;
 }
 
-.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_back_wrap .stor_map_list_view_back_btn_wrap .item_back_but {
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_back_wrap .stor_map_list_view_back_btn_wrap .item_back_btn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
