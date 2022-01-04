@@ -60,3 +60,30 @@
           flex-direction: column;
   margin-left: 13px;
 }
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_back_wrap .stor_map_list_view_back_btn_wrap .item_back_but {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 13px;
+  margin: -13px;
+  border-radius: 30px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
