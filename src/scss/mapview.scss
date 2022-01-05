@@ -264,6 +264,13 @@
                                                     align-items: stretch;
                                                     flex-wrap: wrap;
                                                     flex-direction: row;
+                                                    > div {
+                                                        flex-grow: 1;
+                                                        flex-shrink: 1;
+                                                        padding-left: 8px;
+                                                        padding-top: 12px;
+                                                        width: 35%;
+                                                    }
                                                 }
                                             }
                                         }
