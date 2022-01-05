@@ -775,3 +775,10 @@
   font-size: 16px;
   font-weight: 700;
 }
+
+.line {
+  background-color: #eeeeee;
+  height: 1px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
