@@ -403,7 +403,7 @@
     var staticMap = new kakao.maps.StaticMap(staticMapContainer, staticMapOption);
     
     var circle = new kakao.maps.Circle({
-        map: staticMap, // 원을 표시할 지도 객체
+        map: map, // 원을 표시할 지도 객체
         center : new kakao.maps.LatLng(37.56782, 126.97665), // 지도의 중심 좌표
         radius : 50, // 원의 반지름 (단위 : m)
         fillColor: '#FF0000', // 채움 색
