@@ -259,6 +259,12 @@
                                                 padding-bottom: 12px;
                                                 padding-left: 10px;
                                                 padding-right: 18px;
+                                                .item_view_area_info_box {
+                                                    display: flex;
+                                                    align-items: stretch;
+                                                    flex-wrap: wrap;
+                                                    flex-direction: row;
+                                                }
                                             }
                                         }
                                     }
