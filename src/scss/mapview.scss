@@ -309,6 +309,37 @@
                                             display: flex;
                                             flex-direction: column;
                                             flex-basis: auto;
+                                            .item_view_info_title_wrap {
+                                                .item_view_info_title_box {
+                                                    display: flex;
+                                                    flex-direction: row;
+                                                    min-height: 48px;
+                                                    padding: 0 18px;
+                                                    background-color: rgb(255, 255, 255);
+                                                    overflow: visible;
+                                                    .item_view_info_title {
+                                                        display: flex;
+                                                        flex-shrink: 1;
+                                                        flex-grow: 1;
+                                                        flex-direction: column;
+                                                        padding: 13px 0;
+                                                        justify-content: center;
+                                                        overflow: visible;
+                                                        h1 {
+                                                            display: flex;
+                                                            flex-direction: row;
+                                                            align-items: center;
+                                                            color: rgb(34, 34, 34);
+                                                            flex-shrink: 1;
+                                                            font-size: 18px;
+                                                            line-height: 21px;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .item_view_info_desc_wrap {
+
+                                            }
                                         }
                                     }
                                 }
