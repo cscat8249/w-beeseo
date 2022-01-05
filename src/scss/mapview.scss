@@ -335,6 +335,30 @@
                                                             line-height: 21px;
                                                         }
                                                     }
+                                                    .item_view_info_toggle_wrap {
+                                                        overflow: visible;
+                                                        align-items: center;
+                                                        margin-left: 13px;
+                                                        justify-content: center;
+                                                        .toggle_btn_wrap {
+                                                            transform: rotate(180deg);
+                                                            .toggle_btn {
+                                                                flex-basis: auto;
+                                                                height: 24px;
+                                                                overflow: hidden;
+                                                                width: 24px;
+                                                                z-index: 0;
+                                                                img {
+                                                                    inset: 0px;
+                                                                    height: 100%;
+                                                                    opacity: 0;
+                                                                    position: absolute;
+                                                                    width: 100%;
+                                                                    z-index: -1;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
                                                 }
                                             }
                                             .item_view_info_desc_wrap {
