@@ -288,6 +288,19 @@
                                                     }
                                                 }
                                             }
+                                            .item_view_subtitle_box {
+                                                background-color: rgb(255, 255, 255);
+                                                min-height: 56px;
+                                                padding: 15px 18px 17px;
+                                                .subtitle {
+                                                    color: rgb(117, 117, 117);
+                                                    flex-shrink: 1;
+                                                    flex-wrap: wrap;
+                                                    font-size: 16px;
+                                                    line-height: 24px;
+                                                    text-align: left;
+                                                }
+                                            }
                                         }
                                     }
                                 }

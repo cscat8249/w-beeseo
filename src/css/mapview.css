@@ -455,6 +455,23 @@
   line-height: 26px;
 }
 
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_title_wrap .item_view_title_box .item_view_subtitle_box {
+  background-color: white;
+  min-height: 56px;
+  padding: 15px 18px 17px;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_title_wrap .item_view_title_box .item_view_subtitle_box .subtitle {
+  color: #757575;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_tell_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
