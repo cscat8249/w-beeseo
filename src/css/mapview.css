@@ -569,7 +569,6 @@
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_box_wrap .item_view_info_box .item_view_info_title_wrap .item_view_info_title_box .item_view_info_toggle_wrap .toggle_btn_wrap .toggle_btn img {
   inset: 0px;
   height: 100%;
-  opacity: 0;
   position: absolute;
   width: 100%;
   z-index: -1;
