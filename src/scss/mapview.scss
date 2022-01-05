@@ -192,6 +192,7 @@
                                             background-color: rgb(255, 255, 255);
                                             position: relative;
                                             z-index: 0;
+                                            border-bottom: 3px solid #ccc;
                                             .item_view_price_box {
                                                 display: flex;
                                                 background-color: rgb(255, 255, 255);
@@ -470,10 +471,6 @@
                     }
                 }
             }
-        }
-        .border_big {
-            height: 11px;
-            background-color: rgb(238, 238, 238);
         }
     }
 }
