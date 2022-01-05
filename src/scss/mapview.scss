@@ -395,6 +395,13 @@
                                                                 overflow: visible;
                                                                 padding-left: 2px;
                                                                 padding-right: 2px;
+                                                                p {
+                                                                    color: rgb(117, 117, 117);
+                                                                    flex-shrink: 1;
+                                                                    flex-wrap: wrap;
+                                                                    font-size: 16px;
+                                                                    line-height: 21px;
+                                                                }
                                                             }
                                                             .item_info_text_box {
                                                                 display: flex;
@@ -406,6 +413,13 @@
                                                                 overflow: visible;
                                                                 padding-left: 2px;
                                                                 padding-right: 2px;
+                                                                p {
+                                                                    color: rgb(34, 34, 34);
+                                                                    flex-shrink: 1;
+                                                                    flex-wrap: wrap;
+                                                                    font-size: 16px;
+                                                                    line-height: 21px;
+                                                                }
                                                             }
                                                         }
                                                     }
