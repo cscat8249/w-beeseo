@@ -557,3 +557,10 @@
   border-color: #326cf9;
   background-color: white;
 }
+
+.line {
+  background-color: #eeeeee;
+  height: 1px;
+  margin-left: 18px;
+  margin-right: 18px;
+}
