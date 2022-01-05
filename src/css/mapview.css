@@ -500,6 +500,7 @@
   padding: 0 18px;
   background-color: white;
   overflow: visible;
+  border-bottom: 1px solid #ccc;
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_box_wrap .item_view_info_box .item_view_info_title_wrap .item_view_info_title_box .item_view_info_title {
