@@ -459,6 +459,7 @@
   background-color: white;
   min-height: 56px;
   padding: 15px 18px 17px;
+  border-bottom: 1px solid #ccc;
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_title_wrap .item_view_title_box .item_view_subtitle_box .subtitle {
