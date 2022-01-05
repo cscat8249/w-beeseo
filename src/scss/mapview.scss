@@ -384,6 +384,27 @@
                                                             min-height: 38px;
                                                             padding: 9px 18px 8px;
                                                             align-items: stretch;
+                                                            .item_info_title {
+                                                                display: flex;
+                                                                align-items: flex-start;
+                                                                align-self: flex-start;
+                                                                flex: 1 1 0%;
+                                                                flex-flow: row wrap;
+                                                                overflow: visible;
+                                                                padding-left: 2px;
+                                                                padding-right: 2px;
+                                                            }
+                                                            .item_info_text_box {
+                                                                display: flex;
+                                                                align-items: flex-start;
+                                                                align-self: flex-start;
+                                                                flex: 2 1 0%;
+                                                                flex-flow: row wrap;
+                                                                margin-left: 4px;
+                                                                overflow: visible;
+                                                                padding-left: 2px;
+                                                                padding-right: 2px;
+                                                            }
                                                         }
                                                     }
                                                 }
