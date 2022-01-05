@@ -44,6 +44,14 @@ input {
     outline: none;
     user-select: text;
 }
+body::-webkit-scrollbar, div::-webkit-scrollbar {
+    width: 6px;
+}
+body::-webkit-scrollbar-thumb, div::-webkit-scrollbar-thumb {
+    background-color: #cccccc;
+    border-radius: 3px !important;
+}
+
 
 #root {
     width: 100%;
