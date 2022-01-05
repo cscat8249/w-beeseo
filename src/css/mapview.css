@@ -959,6 +959,14 @@
   line-height: 21px;
 }
 
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc .thumbnail_map_wrap {
+  height: 168px;
+  margin: 15px 10px 10px;
+  border-width: 1px;
+  border-color: #e1e1e1;
+  overflow: hidden;
+}
+
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_tell_wrap {
   display: -webkit-box;
   display: -ms-flexbox;

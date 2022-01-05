@@ -299,6 +299,33 @@
                                                                     표시된 범위 안에 매물이 있습니다.
                                                                 </p>
                                                             </div>
+                                                            <div class="thumbnail_map_wrap">
+                                                                <div id="thumbnail-map" style="flex: 1 1 0%; position: relative; overflow: hidden;"></div>
+                                                                <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=cc2d88735aad52c775a100fa60d3cbbe"></script>                    
+                                                                <script>
+                                                                    var staticMapContainer  = document.getElementById('thumbnail-map'), // 이미지 지도를 표시할 div 
+                                                                        staticMapOption = {
+                                                                            center: new kakao.maps.LatLng(37.56682, 126.97865), // 이미지 지도의 중심 좌표
+                                                                            level: 3, // 이미지 지도의 확대 레벨
+                                                                            mapTypeId : kakao.maps.MapTypeId.ROADMAP // 지도종류
+                                                                        };
+                                                                        
+                                                                    // 이미지 지도를 생성한다
+                                                                    var staticMap = new kakao.maps.StaticMap(staticMapContainer, staticMapOption);
+
+                                                                    var circle = new kakao.maps.Circle({
+                                                                        map: staticMap, // 원을 표시할 지도 객체
+                                                                        center : new kakao.maps.LatLng(37.56782, 126.97665), // 지도의 중심 좌표
+                                                                        radius : 50, // 원의 반지름 (단위 : m)
+                                                                        fillColor: '#FF0000', // 채움 색
+                                                                        fillOpacity: 0.5, // 채움 불투명도
+                                                                        strokeWeight: 3, // 선의 두께
+                                                                        strokeColor: '#FF0000', // 선 색
+                                                                        strokeOpacity: 0.9, // 선 투명도 
+                                                                        strokeStyle: 'solid' // 선 스타일
+                                                                    });	
+                                                                </script>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
