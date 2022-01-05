@@ -555,3 +555,8 @@
   font-size: 16px;
   font-weight: 700;
 }
+
+.stor_map_wrap .stor_map_list_wrap .border_big {
+  height: 11px;
+  background-color: #eeeeee;
+}

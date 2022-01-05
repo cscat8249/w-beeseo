@@ -64,7 +64,6 @@
                 }
             }
         }
-        
         .stor_map_list_view_box_wrap {
             display: flex;
             flex-direction: column;
@@ -363,6 +362,10 @@
                     }
                 }
             }
+        }
+        .border_big {
+            height: 11px;
+            background-color: rgb(238, 238, 238);
         }
     }
 }
