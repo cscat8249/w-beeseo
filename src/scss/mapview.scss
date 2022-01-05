@@ -376,7 +376,15 @@
                                                         flex-direction: column;
                                                         flex-basis: auto;
                                                         flex: 1 1 0%;
-                                                        
+                                                        .item_info_box {
+                                                            display: flex;
+                                                            align-items: center;
+                                                            flex: 1 1 auto;
+                                                            flex-direction: row;
+                                                            min-height: 38px;
+                                                            padding: 9px 18px 8px;
+                                                            align-items: stretch;
+                                                        }
                                                     }
                                                 }
                                             }
