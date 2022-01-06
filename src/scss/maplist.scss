@@ -7,6 +7,8 @@
     height: calc(100% - 149px);
     position: relative;
     .stor_map_box_wrap {
+        display: flex;
+        flex-direction: column;
         flex-grow: 1;
         position: relative;
         z-index: 10;
