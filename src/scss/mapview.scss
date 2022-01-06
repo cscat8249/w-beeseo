@@ -592,6 +592,72 @@
                                                     border-color: rgb(225, 225, 225);
                                                     overflow: hidden;
                                                 }
+                                                .thumbnailmap_absol {
+                                                    inset: 0px;
+                                                    position: absolute;
+                                                    z-index: 49;
+                                                }
+                                                .thumbnailmap_circle_wrap {
+                                                    display: flex;
+                                                    flex: 1 1 0%;
+                                                    position: absolute;
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    z-index: 1;
+                                                    top: 0px;
+                                                    .thumbnailmap_circle {
+                                                        height: 100px;
+                                                        width: 100px;
+                                                        background-color: rgba(238, 121, 18, 0.5);
+                                                        border-radius: 200px;
+                                                    }
+                                                }
+                                                .thumbnailmap_road_view_btn_wrap {
+                                                    position: absolute;
+                                                    bottom: 0px;
+                                                    z-index: 50;
+                                                    width: 100%;
+                                                    .thumbnailmap_road_view_btn_box {
+                                                        .thumbnailmap_road_view_btn {
+                                                            align-items: center;
+                                                            background-color: rgba(255, 255, 255, 0.9);
+                                                            cursor: pointer;
+                                                            flex-direction: row;
+                                                            overflow: hidden;
+                                                            .thumbnailmap_road_view_btn_text_img_wrap {
+                                                                align-items: center;
+                                                                flex: 1 1 0%;
+                                                                flex-direction: row;
+                                                                justify-content: center;
+                                                                padding: 13px;
+                                                                .thumbnailmap_road_view_btn_img {
+                                                                    flex-basis: auto;
+                                                                    height: 18px;
+                                                                    overflow: hidden;
+                                                                    width: 18px;
+                                                                    z-index: 0;
+                                                                    img {
+                                                                        inset: 0px;
+                                                                        height: 100%;
+                                                                        position: absolute;
+                                                                        width: 100%;
+                                                                        z-index: -1;
+                                                                    }
+                                                                }
+                                                                .thumbnailmap_road_view_btn_text {
+                                                                    color: rgb(34, 34, 34);
+                                                                    font-size: 16px;
+                                                                    line-height: 21px;
+                                                                    margin-left: 6px;
+                                                                    margin-right: 10px;
+                                                                    text-align: center;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
                                             }
                                         }
                                     }
