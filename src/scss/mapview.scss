@@ -702,7 +702,21 @@
                                                         }
                                                     }
                                                 }
-                                                
+                                                .item_view_info_user_title_box_wrap {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    justify-content: center;
+                                                    flex: 1 1 0%;
+                                                    p {
+                                                        color: rgb(34, 34, 34);
+                                                        flex-shrink: 1;
+                                                        flex-wrap: wrap;
+                                                        font-size: 16px;
+                                                        font-weight: 700;
+                                                        line-height: 21px;
+                                                        text-align: left;
+                                                    }
+                                                }
                                             }
                                         }
                                     }
