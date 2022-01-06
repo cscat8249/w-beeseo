@@ -38,6 +38,11 @@
   width: 40px;
 }
 
+.stor_map_wrap .stor_map_box_wrap .stor_map_button_wrap button img {
+  height: 100%;
+  width: 100%;
+}
+
 .stor_map_wrap .stor_map_box_wrap .stor_map_button_wrap .stor_map_nowlocation_btn {
   margin-bottom: 5px;
 }
