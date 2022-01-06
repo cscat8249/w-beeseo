@@ -717,6 +717,31 @@
                                                         text-align: left;
                                                     }
                                                 }
+                                                .item_view_info_user_toggle_wrap {
+                                                    display: flex;
+                                                    overflow: visible;
+                                                    align-items: center;
+                                                    margin-left: 13px;
+                                                    justify-content: center;
+                                                    cursor: pointer;
+                                                    .toggle_btn_wrap {
+                                                        transform: rotate(180deg);
+                                                        .toggle_btn {
+                                                            flex-basis: auto;
+                                                            height: 24px;
+                                                            overflow: hidden;
+                                                            width: 24px;
+                                                            z-index: 0;
+                                                            img {
+                                                                inset: 0px;
+                                                                height: 100%;
+                                                                position: absolute;
+                                                                width: 100%;
+                                                                z-index: -1;
+                                                            }
+                                                        }
+                                                    }
+                                                }
                                             }
                                         }
                                     }
