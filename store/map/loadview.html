@@ -125,7 +125,7 @@
 	var rvPosition = new kakao.maps.LatLng(37.56613, 126.97837);
     //로드뷰 객체를 생성한다
     roadviewClient.getNearestPanoId(rvPosition, 50, function (panoId) {
-      roadview.setPanoId(panoId, position);
+      roadview.setPanoId(panoId, rvPosition);
     });
 
 </script>
