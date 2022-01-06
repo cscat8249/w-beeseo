@@ -393,7 +393,8 @@
         staticmapOption = {
             center: new kakao.maps.LatLng(37.56682, 126.97865), // 이미지 지도의 중심 좌표
             level: 3, // 이미지 지도의 확대 레벨
-            mapTypeId : kakao.maps.MapTypeId.ROADMAP // 지도종류
+            mapTypeId : kakao.maps.MapTypeId.ROADMAP, // 지도종류
+            draggable: false, // 지도를 생성할때 지도 이동 및 확대/축소를 막으려면 draggable: false 옵션을 추가하세요
         };
     
     // 지도를 생성한다 
@@ -402,9 +403,7 @@
     // 이미지 지도를 생성한다
     var staticMap = new kakao.maps.Map(staticMapContainer, staticmapOption);
     
-    kakao.maps.event.addListener(staticMap, 'drag', function () {
-        staticMap.setDraggable(false);
-	});  
+      
 </script>
 <script>
     
