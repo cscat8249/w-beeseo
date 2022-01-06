@@ -1056,7 +1056,6 @@
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc .thumbnail_map_wrap .thumbnailmap_road_view_btn_wrap .thumbnailmap_road_view_btn_box .thumbnailmap_road_view_btn .thumbnailmap_road_view_btn_text_img_wrap .thumbnailmap_road_view_btn_img img {
   inset: 0px;
   height: 100%;
-  position: absolute;
   width: 100%;
   z-index: -1;
 }
