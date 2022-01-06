@@ -403,7 +403,7 @@
     var staticMap = new kakao.maps.Map(staticMapContainer, staticmapOption);
     
     kakao.maps.event.addListener(staticMap, 'drag', function () {
-        map.setDraggable(draggable);
+        staticMap.setDraggable(draggable);
 	});  
 </script>
 <script>
