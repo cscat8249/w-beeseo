@@ -114,5 +114,5 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  height: calc(100% - 130px);
+  height: calc(100% - 64px);
 }
