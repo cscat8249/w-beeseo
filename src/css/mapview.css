@@ -965,15 +965,16 @@
   border-width: 1px;
   border-color: #e1e1e1;
   overflow: hidden;
+  position: relative;
 }
 
-.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc .thumbnailmap_absol {
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc .thumbnail_map_wrap .thumbnailmap_absol {
   inset: 0px;
   position: absolute;
   z-index: 49;
 }
 
-.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc .thumbnailmap_circle_wrap {
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc .thumbnail_map_wrap .thumbnailmap_circle_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -993,7 +994,7 @@
   top: 0px;
 }
 
-.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc .thumbnailmap_circle_wrap .thumbnailmap_circle {
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc .thumbnail_map_wrap .thumbnailmap_circle_wrap .thumbnailmap_circle {
   height: 100px;
   width: 100px;
   background-color: rgba(238, 121, 18, 0.5);
