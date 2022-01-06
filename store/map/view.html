@@ -404,6 +404,18 @@
     // 이미지 지도를 생성한다
     var staticMap = new kakao.maps.Map(staticMapContainer, staticmapOption);
     
+    var circle = new kakao.maps.Circle({
+			map: staticMap, // 원을 표시할 지도 객체
+			center : new kakao.maps.LatLng(37.56782, 126.97665), // 지도의 중심 좌표
+			radius : 50, // 원의 반지름 (단위 : m)
+			fillColor: '#005282', // 채움 색
+			fillOpacity: 0.5, // 채움 불투명도
+			strokeWeight: 1, // 선의 두께
+			strokeColor: '#ffffff', // 선 색
+			strokeOpacity: 0.5, // 선 투명도 
+			strokeStyle: 'solid' // 선 스타일
+    });	
+
       
 </script>
 <script>
