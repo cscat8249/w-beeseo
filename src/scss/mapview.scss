@@ -743,8 +743,66 @@
                                                     }
                                                 }
                                             }
-                                            .item_view_info_user_info_desc {
+                                            .item_view_info_user_info_desc_wrap {
                                                 display: block;
+                                                .item_view_info_user_info_desc_box {
+                                                    display: flex;
+                                                    flex-direction: column;
+                                                    align-items: stretch;
+                                                    border-top-width: 1px;
+                                                    border-color: rgb(238, 238, 238);
+                                                    .item_view_info_user_info_desc {
+                                                        background-color: rgb(255, 255, 255);
+                                                        display: flex;
+                                                        flex-direction: column;
+                                                        flex-basis: auto;
+                                                        flex: 1 1 0%;
+                                                        .item_info_box {
+                                                            display: flex;
+                                                            align-items: center;
+                                                            flex: 1 1 auto;
+                                                            flex-direction: row;
+                                                            min-height: 38px;
+                                                            padding: 9px 18px 8px;
+                                                            align-items: stretch;
+                                                            .item_info_title {
+                                                                display: flex;
+                                                                align-items: flex-start;
+                                                                align-self: flex-start;
+                                                                flex: 1 1 0%;
+                                                                flex-flow: row wrap;
+                                                                overflow: visible;
+                                                                padding-left: 2px;
+                                                                padding-right: 2px;
+                                                                p {
+                                                                    color: rgb(117, 117, 117);
+                                                                    flex-shrink: 1;
+                                                                    flex-wrap: wrap;
+                                                                    font-size: 16px;
+                                                                    line-height: 21px;
+                                                                }
+                                                            }
+                                                            .item_info_text_box {
+                                                                display: flex;
+                                                                align-items: flex-start;
+                                                                align-self: flex-start;
+                                                                flex: 2 1 0%;
+                                                                flex-flow: row wrap;
+                                                                margin-left: 4px;
+                                                                overflow: visible;
+                                                                padding-left: 2px;
+                                                                padding-right: 2px;
+                                                                p {
+                                                                    color: rgb(34, 34, 34);
+                                                                    flex-shrink: 1;
+                                                                    flex-wrap: wrap;
+                                                                    font-size: 16px;
+                                                                    line-height: 21px;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
                                             }
                                         }
                                     }
