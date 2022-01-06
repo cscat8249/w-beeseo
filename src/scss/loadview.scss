@@ -64,5 +64,11 @@
                 }
             }
         }
+        .stor_map_load_view_map_wrap {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: calc(100% - 130px);
+        }
     }
 }

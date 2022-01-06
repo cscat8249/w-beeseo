@@ -124,6 +124,7 @@
 	var rvPosition = new kakao.maps.LatLng(37.56613, 126.97837);
      //로드뷰 객체를 생성한다
     var roadview = new kakao.maps.Roadview(roadviewContainer, {
+        panoId : 1050215191, // 로드뷰 시작 지역의 고유 아이디 값
         panoX : 126.97837, // panoId가 유효하지 않을 경우 지도좌표를 기반으로 데이터를 요청할 수평 좌표값
 		panoY : 37.56613, // panoId가 유효하지 않을 경우 지도좌표를 기반으로 데이터를 요청할 수직 좌표값
 		pan: 68, // 로드뷰 처음 실행시에 바라봐야 할 수평 각
