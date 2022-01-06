@@ -10,6 +10,21 @@
         flex-grow: 1;
         position: relative;
         z-index: 10;
+        .stor_map_button_wrap {
+            position: absolute;
+            left: 21px;
+            z-index: 1;
+            top: 314px;
+            .stor_map_nowlocation_btn {
+
+            }
+            .stor_map_mapenlargement {
+
+            }
+            .stor_map_mapcontraction {
+                
+            }
+        }
     }
     .stor_map_list_wrap {
         flex: 0 0 auto;

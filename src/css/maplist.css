@@ -18,6 +18,13 @@
   z-index: 10;
 }
 
+.stor_map_wrap .stor_map_box_wrap .stor_map_button_wrap {
+  position: absolute;
+  left: 21px;
+  z-index: 1;
+  top: 314px;
+}
+
 .stor_map_wrap .stor_map_list_wrap {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;

@@ -44,10 +44,14 @@
                                 level: 3, // 지도의 확대 레벨
                                 mapTypeId : kakao.maps.MapTypeId.ROADMAP // 지도종류
                             }; 
-                
                         // 지도를 생성한다 
                         var map = new kakao.maps.Map(mapContainer, mapOption); 
                     </script>
+                    <div class="stor_map_button_wrap">
+                        <button id="nowlocation" class="stor_map_nowlocation_btn"></button>
+                        <button id="mapenlargement" class="stor_map_mapenlargement"></button>
+                        <button id="mapcontraction" class="stor_map_mapcontraction"></button>
+                    </div>
                 </div>
                 <div class="stor_map_list_wrap">
                     <div class="stor_map_list_search_wrap">
