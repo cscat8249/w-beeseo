@@ -1009,6 +1009,9 @@
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc .thumbnail_map_wrap .thumbnailmap_road_view_btn_wrap .thumbnailmap_road_view_btn_box .thumbnailmap_road_view_btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1022,6 +1025,9 @@
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc .thumbnail_map_wrap .thumbnailmap_road_view_btn_wrap .thumbnailmap_road_view_btn_box .thumbnailmap_road_view_btn .thumbnailmap_road_view_btn_text_img_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1036,6 +1042,32 @@
       -ms-flex-pack: center;
           justify-content: center;
   padding: 13px;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc .thumbnail_map_wrap .thumbnailmap_road_view_btn_wrap .thumbnailmap_road_view_btn_box .thumbnailmap_road_view_btn .thumbnailmap_road_view_btn_text_img_wrap .thumbnailmap_road_view_btn_img {
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
+  height: 18px;
+  overflow: hidden;
+  width: 18px;
+  z-index: 0;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc .thumbnail_map_wrap .thumbnailmap_road_view_btn_wrap .thumbnailmap_road_view_btn_box .thumbnailmap_road_view_btn .thumbnailmap_road_view_btn_text_img_wrap .thumbnailmap_road_view_btn_img img {
+  inset: 0px;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc .thumbnail_map_wrap .thumbnailmap_road_view_btn_wrap .thumbnailmap_road_view_btn_box .thumbnailmap_road_view_btn .thumbnailmap_road_view_btn_text_img_wrap .thumbnailmap_road_view_btn_text {
+  color: #222222;
+  font-size: 16px;
+  line-height: 21px;
+  margin-left: 6px;
+  margin-right: 10px;
+  text-align: center;
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_tell_wrap {
