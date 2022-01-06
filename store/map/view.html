@@ -390,7 +390,7 @@
         }; 
 
     var staticMapContainer  = document.getElementById('thumbnailmap'), // 이미지 지도를 표시할 div 
-        staticMapOption = {
+        staticmapOption = {
             center: new kakao.maps.LatLng(37.56682, 126.97865), // 이미지 지도의 중심 좌표
             level: 3, // 이미지 지도의 확대 레벨
             mapTypeId : kakao.maps.MapTypeId.ROADMAP // 지도종류
@@ -400,7 +400,7 @@
     var map = new kakao.maps.Map(mapContainer, mapOption);
 
     // 이미지 지도를 생성한다
-    var staticMap = new kakao.maps.Map(mapContainer, mapOption);
+    var staticMap = new kakao.maps.Map(staticMapContainer, staticmapOption);
     
     kakao.maps.event.addListener(staticMap, 'drag', function () {
         map.setDraggable(draggable);
