@@ -578,6 +578,10 @@
   z-index: -1;
 }
 
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_box_wrap .item_view_info_box .item_view_info_desc_wrap {
+  display: block;
+}
+
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_box_wrap .item_view_info_box .item_view_info_desc_wrap .item_view_info_desc_box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -927,13 +931,7 @@
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  display: block;
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_map_review_wrap .item_view_map_review_box .item_view_map_review_desc .item_view_map_review_text {
@@ -1200,6 +1198,10 @@
   position: absolute;
   width: 100%;
   z-index: -1;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_user_info_wrap .item_view_info_user_info_box .item_view_info_user_info_desc {
+  display: block;
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_tell_wrap {

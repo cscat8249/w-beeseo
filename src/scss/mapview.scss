@@ -366,6 +366,7 @@
                                                 }
                                             }
                                             .item_view_info_desc_wrap {
+                                                display: block;
                                                 .item_view_info_desc_box {
                                                     display: flex;
                                                     flex-direction: column;
@@ -568,8 +569,7 @@
                                                 }
                                             }
                                             .item_view_map_review_desc {
-                                                display: flex;
-                                                flex-direction: column;
+                                                display: block;
                                                 .item_view_map_review_text {
                                                     display: flex;
                                                     flex-direction: column;
@@ -742,6 +742,9 @@
                                                         }
                                                     }
                                                 }
+                                            }
+                                            .item_view_info_user_info_desc {
+                                                display: block;
                                             }
                                         }
                                     }
