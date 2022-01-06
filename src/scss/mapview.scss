@@ -670,6 +670,34 @@
                                             flex-basis: auto;
                                             border-bottom: 10px solid #ccc;
                                             .item_view_info_user_info_title_wrap {
+                                                .item_view_info_user_info_img_box_wrap {
+                                                    margin-right: 13px;
+                                                    .item_view_info_user_info_img_box {
+                                                        overflow: visible;
+                                                        .item_view_info_user_info_img_wrap {
+                                                            display: flex;
+                                                            flex-direction: column;
+                                                            width: 70px;
+                                                            height: 70px;
+                                                            position: relative;
+                                                            border-radius: 35px;
+                                                            overflow: hidden;
+                                                            background-color: #ccc;
+                                                            .user_img_wrap {
+                                                                display: flex;
+                                                                flex-basis: auto;
+                                                                height: 100%;
+                                                                overflow: hidden;
+                                                                width: 100%;
+                                                                z-index: 0;
+                                                                img {
+                                                                    height: 100%;
+                                                                    width: 100%;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
                                                 .item_view_info_user_info_title_box {
                                                     display: flex;
                                                     flex-direction: row;
@@ -678,34 +706,6 @@
                                                     background-color: rgb(255, 255, 255);
                                                     overflow: visible;
                                                     border-bottom: 1px solid #ccc;
-                                                    .item_view_info_user_info_img_box_wrap {
-                                                        margin-right: 13px;
-                                                        .item_view_info_user_info_img_box {
-                                                            overflow: visible;
-                                                            .item_view_info_user_info_img_wrap {
-                                                                display: flex;
-                                                                flex-direction: column;
-                                                                width: 70px;
-                                                                height: 70px;
-                                                                position: relative;
-                                                                border-radius: 35px;
-                                                                overflow: hidden;
-                                                                background-color: #ccc;
-                                                                .user_img_wrap {
-                                                                    display: flex;
-                                                                    flex-basis: auto;
-                                                                    height: 100%;
-                                                                    overflow: hidden;
-                                                                    width: 100%;
-                                                                    z-index: 0;
-                                                                    img {
-                                                                        height: 100%;
-                                                                        width: 100%;
-                                                                    }
-                                                                }
-                                                            }
-                                                        }
-                                                    }
                                                     .item_view_info_user_info_title {
                                                         display: flex;
                                                         flex-shrink: 1;

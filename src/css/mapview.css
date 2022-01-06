@@ -1082,30 +1082,15 @@
   border-bottom: 10px solid #ccc;
 }
 
-.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_user_info_wrap .item_view_info_user_info_box .item_view_info_user_info_title_wrap .item_view_info_user_info_title_box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  min-height: 50px;
-  padding: 13px 18px;
-  background-color: white;
-  overflow: visible;
-  border-bottom: 1px solid #ccc;
-}
-
-.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_user_info_wrap .item_view_info_user_info_box .item_view_info_user_info_title_wrap .item_view_info_user_info_title_box .item_view_info_user_info_img_box_wrap {
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_user_info_wrap .item_view_info_user_info_box .item_view_info_user_info_title_wrap .item_view_info_user_info_img_box_wrap {
   margin-right: 13px;
 }
 
-.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_user_info_wrap .item_view_info_user_info_box .item_view_info_user_info_title_wrap .item_view_info_user_info_title_box .item_view_info_user_info_img_box_wrap .item_view_info_user_info_img_box {
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_user_info_wrap .item_view_info_user_info_box .item_view_info_user_info_title_wrap .item_view_info_user_info_img_box_wrap .item_view_info_user_info_img_box {
   overflow: visible;
 }
 
-.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_user_info_wrap .item_view_info_user_info_box .item_view_info_user_info_title_wrap .item_view_info_user_info_title_box .item_view_info_user_info_img_box_wrap .item_view_info_user_info_img_box .item_view_info_user_info_img_wrap {
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_user_info_wrap .item_view_info_user_info_box .item_view_info_user_info_title_wrap .item_view_info_user_info_img_box_wrap .item_view_info_user_info_img_box .item_view_info_user_info_img_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1121,7 +1106,7 @@
   background-color: #ccc;
 }
 
-.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_user_info_wrap .item_view_info_user_info_box .item_view_info_user_info_title_wrap .item_view_info_user_info_title_box .item_view_info_user_info_img_box_wrap .item_view_info_user_info_img_box .item_view_info_user_info_img_wrap .user_img_wrap {
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_user_info_wrap .item_view_info_user_info_box .item_view_info_user_info_title_wrap .item_view_info_user_info_img_box_wrap .item_view_info_user_info_img_box .item_view_info_user_info_img_wrap .user_img_wrap {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1133,9 +1118,24 @@
   z-index: 0;
 }
 
-.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_user_info_wrap .item_view_info_user_info_box .item_view_info_user_info_title_wrap .item_view_info_user_info_title_box .item_view_info_user_info_img_box_wrap .item_view_info_user_info_img_box .item_view_info_user_info_img_wrap .user_img_wrap img {
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_user_info_wrap .item_view_info_user_info_box .item_view_info_user_info_title_wrap .item_view_info_user_info_img_box_wrap .item_view_info_user_info_img_box .item_view_info_user_info_img_wrap .user_img_wrap img {
   height: 100%;
   width: 100%;
+}
+
+.stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_user_info_wrap .item_view_info_user_info_box .item_view_info_user_info_title_wrap .item_view_info_user_info_title_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  min-height: 50px;
+  padding: 13px 18px;
+  background-color: white;
+  overflow: visible;
+  border-bottom: 1px solid #ccc;
 }
 
 .stor_map_wrap .stor_map_list_wrap .stor_map_list_view_box_wrap .list_scrollbar .simplebar_wrapper .simplebar_mask .simplebar_offset .simplebar_content_wrapper .simplebar_content .item_view_info_user_info_wrap .item_view_info_user_info_box .item_view_info_user_info_title_wrap .item_view_info_user_info_title_box .item_view_info_user_info_title {
