@@ -400,19 +400,11 @@
     var map = new kakao.maps.Map(mapContainer, mapOption);
 
     // 이미지 지도를 생성한다
-    var staticMap = new kakao.maps.StaticMap(staticMapContainer, staticMapOption);
+    var staticMap = new kakao.maps.Map(mapContainer, mapOption);
     
-    var circle = new kakao.maps.Circle({
-        map: staticMap, // 원을 표시할 지도 객체
-        center : new kakao.maps.LatLng(37.56782, 126.97665), // 지도의 중심 좌표
-        radius : 50, // 원의 반지름 (단위 : m)
-        fillColor: '#FF0000', // 채움 색
-        fillOpacity: 0.5, // 채움 불투명도
-        strokeWeight: 3, // 선의 두께
-        strokeColor: '#FF0000', // 선 색
-        strokeOpacity: 0.9, // 선 투명도 
-        strokeStyle: 'solid' // 선 스타일
-    });	     
+    kakao.maps.event.addListener(staticMap, 'drag', function () {
+        map.setDraggable(draggable);
+	});  
 </script>
 <script>
     
