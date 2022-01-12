@@ -28,13 +28,13 @@
                 position: relative;
                 color: $black;
                 user-select: none;
-                font-weight: 300;
+                font-weight: $font_weight_300;
                 &:hover {
                     font-weight: $font_weight_700;
                     color: $main_color_hover;
                 }
                 &.agentlogin_btn {
-                    margin-left: 8px;
+                    margin: 0px 26px;
                     .agentlogin_txet {
                         @include heder_btn;
                         &:hover {
