@@ -3,7 +3,10 @@
 @import './method.scss';
 
 .main_store_search_wrap {
-    
+    display: flex;
+    flex-direction: column;
+    background: #00345b;
+    height: 800px;
 }
 .main_guide_box_wrap {
     width: 100%;
