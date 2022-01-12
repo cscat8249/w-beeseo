@@ -49,6 +49,7 @@
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
+  font-weight: 300;
 }
 
 .header div.menuwrap a:hover {

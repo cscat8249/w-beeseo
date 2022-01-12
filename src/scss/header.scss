@@ -28,6 +28,7 @@
                 position: relative;
                 color: $black;
                 user-select: none;
+                font-weight: 300;
                 &:hover {
                     font-weight: $font_weight_700;
                     color: $main_color_hover;
