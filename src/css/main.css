@@ -13,7 +13,7 @@
       -ms-flex-align: center;
           align-items: center;
   background: #00345b;
-  height: 800px;
+  height: 100vh;
 }
 
 .main_store_search_wrap .main_stor_search_box {
