@@ -7,6 +7,13 @@
     flex-direction: column;
     background: #00345b;
     height: 800px;
+    .main_stor_search_box {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        
+    }
 }
 .main_guide_box_wrap {
     width: 100%;
