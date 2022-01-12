@@ -433,7 +433,7 @@
 .main_like_box_wrap .main_like_box .main_likes_prev_button {
   width: 50px;
   height: 50px;
-  background: #EDEDE5;
+  background: #ffd25c;
   border-radius: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -454,7 +454,7 @@
 }
 
 .main_like_box_wrap .main_like_box .main_likes_prev_button i {
-  border: solid black;
+  border: solid white;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 8px;
@@ -466,7 +466,7 @@
 }
 
 .main_like_box_wrap .main_like_box .main_likes_prev_button:hover {
-  background: #003458;
+  background: #f5a302;
 }
 
 .main_like_box_wrap .main_like_box .main_likes_prev_button:hover i {
@@ -479,7 +479,7 @@
 .main_like_box_wrap .main_like_box .main_likes_next_button {
   width: 50px;
   height: 50px;
-  background: #EDEDE5;
+  background: #ffd25c;
   border-radius: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -501,7 +501,7 @@
 }
 
 .main_like_box_wrap .main_like_box .main_likes_next_button i {
-  border: solid black;
+  border: solid white;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 8px;
@@ -513,7 +513,7 @@
 }
 
 .main_like_box_wrap .main_like_box .main_likes_next_button:hover {
-  background: #003458;
+  background: #f5a302;
 }
 
 .main_like_box_wrap .main_like_box .main_likes_next_button:hover i {
@@ -542,7 +542,7 @@
 }
 
 .main_like_box_wrap .main_like_box .main_likes_items_wrap .main_likes_items > li {
-  background-color: #EDEDE5;
+  background-color: white;
   width: 330px;
   height: 400px;
 }
@@ -669,8 +669,8 @@
 }
 
 .main_like_box_wrap .main_like_box .main_likes_items_wrap .main_like_box_nav .page_nav_point {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   display: inline-block;
   border-radius: 100%;
   background: #ccc;
@@ -680,7 +680,7 @@
 }
 
 .main_like_box_wrap .main_like_box .main_likes_items_wrap .main_like_box_nav .page_nav_point.active {
-  background: #003458;
+  background: #f5a302;
   opacity: 1;
 }
 
@@ -882,7 +882,7 @@
 .main_remodeling_box_wrap .main_like_box .main_likes_prev_button {
   width: 50px;
   height: 50px;
-  background: #EDEDE5;
+  background: #ffd25c;
   border-radius: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -903,7 +903,7 @@
 }
 
 .main_remodeling_box_wrap .main_like_box .main_likes_prev_button i {
-  border: solid black;
+  border: solid white;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 8px;
@@ -915,7 +915,7 @@
 }
 
 .main_remodeling_box_wrap .main_like_box .main_likes_prev_button:hover {
-  background: #003458;
+  background: #f5a302;
 }
 
 .main_remodeling_box_wrap .main_like_box .main_likes_prev_button:hover i {
@@ -928,7 +928,7 @@
 .main_remodeling_box_wrap .main_like_box .main_likes_next_button {
   width: 50px;
   height: 50px;
-  background: #EDEDE5;
+  background: #ffd25c;
   border-radius: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -950,7 +950,7 @@
 }
 
 .main_remodeling_box_wrap .main_like_box .main_likes_next_button i {
-  border: solid black;
+  border: solid white;
   border-width: 0 2px 2px 0;
   display: inline-block;
   padding: 8px;
@@ -962,7 +962,7 @@
 }
 
 .main_remodeling_box_wrap .main_like_box .main_likes_next_button:hover {
-  background: #003458;
+  background: #f5a302;
 }
 
 .main_remodeling_box_wrap .main_like_box .main_likes_next_button:hover i {

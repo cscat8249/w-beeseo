@@ -241,7 +241,6 @@
         font-size: 18px;
         width: 100%;
         height: 250px;
-        // line-height: 12;
         background-color: #ffd25c;
     }
 }
@@ -292,34 +291,34 @@
         .main_likes_prev_button {
             width: 50px;
             height: 50px;
-            background: #EDEDE5;
+            background: #ffd25c;
             border-radius: 100px;
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
             cursor: pointer;
             p { margin: auto; padding-left: 5px; font-size: 0;}
-            i {border: solid black;border-width: 0 2px 2px 0;display: inline-block;padding: 8px;}
+            i {border: solid white;border-width: 0 2px 2px 0;display: inline-block;padding: 8px;}
             .left {transform: rotate(135deg);}
             &:hover {
-                background:#003458;
+                background:#f5a302;
                 i {border: solid #fff;border-width: 0 2px 2px 0;display: inline-block;padding: 8px;}
             }
         }
         .main_likes_next_button {
             width: 50px;
             height: 50px;
-            background: #EDEDE5;
+            background: #ffd25c;
             border-radius: 100px;
             display: flex;
             justify-content: space-between;
             align-items: flex-end;
             cursor: pointer;
             p { margin: auto; padding-right: 5px; font-size: 0; cursor: pointer;}
-            i {border: solid black;border-width: 0 2px 2px 0;display: inline-block;padding: 8px;}
+            i {border: solid white;border-width: 0 2px 2px 0;display: inline-block;padding: 8px;}
             .right {transform: rotate(-45deg);-webkit-transform: rotate(-45deg);}
             &:hover {
-                background:#003458;
+                background:#f5a302;
                 i {border: solid #fff;border-width: 0 2px 2px 0;display: inline-block;padding: 8px;}
             }
         }
@@ -331,7 +330,7 @@
                 justify-content: space-between;
                 margin-top: 20px;
                 >li {
-                    background-color: #EDEDE5;
+                    background-color: white;
                     width: 330px;
                     height: 400px;
                 }
@@ -426,8 +425,8 @@
                 margin-top: 20px;
                 text-align: center;
                 .page_nav_point {
-                    width: 10px;
-                    height: 10px;
+                    width: 15px;
+                    height: 15px;
                     display: inline-block;
                     border-radius: 100%;
                     background: #ccc;
@@ -435,7 +434,7 @@
                     margin: 0 4px;
                     cursor: pointer;
                     &.active {
-                        background: #003458;
+                        background: #f5a302;
                         opacity: 1;
                     }
                 }
@@ -587,34 +586,34 @@
         .main_likes_prev_button {
             width: 50px;
             height: 50px;
-            background: #EDEDE5;
+            background: #ffd25c;
             border-radius: 100px;
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
             cursor: pointer;
             p { margin: auto; padding-left: 5px; font-size: 0;}
-            i {border: solid black;border-width: 0 2px 2px 0;display: inline-block;padding: 8px;}
+            i {border: solid white;border-width: 0 2px 2px 0;display: inline-block;padding: 8px;}
             .left {transform: rotate(135deg);}
             &:hover {
-                background:#003458;
+                background:#f5a302;
                 i {border: solid #fff;border-width: 0 2px 2px 0;display: inline-block;padding: 8px;}
             }
         }
         .main_likes_next_button {
             width: 50px;
             height: 50px;
-            background: #EDEDE5;
+            background: #ffd25c;
             border-radius: 100px;
             display: flex;
             justify-content: space-between;
             align-items: flex-end;
             cursor: pointer;
             p { margin: auto; padding-right: 5px; font-size: 0; cursor: pointer;}
-            i {border: solid black;border-width: 0 2px 2px 0;display: inline-block;padding: 8px;}
+            i {border: solid white;border-width: 0 2px 2px 0;display: inline-block;padding: 8px;}
             .right {transform: rotate(-45deg);-webkit-transform: rotate(-45deg);}
             &:hover {
-                background:#003458;
+                background:#f5a302;
                 i {border: solid #fff;border-width: 0 2px 2px 0;display: inline-block;padding: 8px;}
             }
         }
