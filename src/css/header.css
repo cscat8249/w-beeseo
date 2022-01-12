@@ -119,6 +119,10 @@
   background-color: #003458;
 }
 
+.header div.menuwrap .userlogin_btn .userlogin_text:hover span {
+  background-color: #fff;
+}
+
 .header div.menuwrap .userlogin_btn .userlogin_text span {
   display: block;
   margin: 0px 14px;

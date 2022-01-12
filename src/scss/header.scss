@@ -55,6 +55,9 @@
                     &:hover {
                         color: $white;
                         background-color: $main_color_hover;
+                        span {
+                            background-color: $white;
+                        }
                     }
                     span {
                         display: block;
